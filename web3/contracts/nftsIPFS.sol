@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 contract nftsIPFS {
 
-  address payable contractOwner = payable(0xb309098bcB51E5C687a16FA41bD6055f47c9eBb0);
+  // address payable contractOwner = payable();
 
   uint256 public listingPrice = 0.25 ether;
 
@@ -72,7 +72,7 @@ contract nftsIPFS {
   }
 
   //+ RESTART HERE 
-  
+
   // TODO  👇
   //: CREATE GETIMAGE FUNCTION
 
