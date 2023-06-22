@@ -19,10 +19,11 @@ mongoose
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
+    useUnifiedTopology: true,
   })
   .then(() => console.log("DB connection successfully!"));
 
-const port = 3000 || process.env.PORT;
+const port = 3000;
 
 let server;
 nextServer.prepare().then(() => {
