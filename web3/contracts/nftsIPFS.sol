@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 contract nftsIPFS {
 
-  // address payable contractOwner = payable();
+  // address payable contractOwner = payable(0xf0000000000000000000000000000000000000);
 
   uint256 public listingPrice = 0.25 ether;
 
@@ -71,9 +71,59 @@ contract nftsIPFS {
     return items;
   }
 
-  //+ RESTART HERE 
+  function getImage(uint256 id) external view 
+    returns (
+      string memory,
+      string memory,
+      string memory,
+      string memory,
+      uint256,
+      address,
+      string memory,
+      uint256,
+      uint256
+    ) {
+      NFTs memory nfts = nftImages[id];
+      return (
+        nfts.title,
+        nfts.description,
+        nfts.email,
+        nfts.category,
+        nfts.fundraised,
+        nfts.creator,
+        nfts.image,
+        nfts.timestamp,
+        nfts.id
+      );
+    }
 
-  // TODO  👇
-  //: CREATE GETIMAGE FUNCTION
+    //: UDDATE THE LISTING PRICE OF THE CONTRACT
+    // function updateListingPrice(uint256 _listingPrice, address owner) public payable {
+    //   require(
+    //     contractOwner == owner,
+    //     "Only contract owner can update listing price."
+    //   );
+    //   listingPrice = _listingPrice;
+    // }
 
-}
+    // //: DONATION FUNCTION
+    // function donateToImage(uint256 _id) public {
+    //   uint256 amount = msg.value;
+
+    //   NFTs storage nft = nftImages[_id];
+
+    //   (bool sent,) = payable(nft.creator).call{value: amount}("");
+
+    //   if (sent) {
+    //     nft.fundraised = nft.fundraised + amount;
+    //   }
+    // }
+
+    // function withdraw(address _owner) external {
+    //   require(_owner == contractOwner, "Only owner can withdraw");
+    //   uint256 balance = address(this).balance;
+    //   require(balance >0, "No funds available!");
+
+    //   contractOwner.transfer(balance);
+    // }
+  }
