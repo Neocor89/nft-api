@@ -97,6 +97,8 @@ contract nftsIPFS {
       );
     }
 
+// TODO
+//+ RESTART HERE FIX ERROR SYNTAX IN UPLOAD FUNCTION
     //: UDDATE THE LISTING PRICE OF THE CONTRACT
     // function updateListingPrice(uint256 _listingPrice, address owner) public payable {
     //   require(
