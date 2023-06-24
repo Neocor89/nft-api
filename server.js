@@ -6,6 +6,14 @@ const dev = process.env.NODE_ENV != "production";
 const nextServer = next({ dev });
 const handle = nextServer.getRequestHandler();
 
+/*
+TODO > CHANGE FILE AND ENV CONFIG 🚨
+  : NOW
+    dotenv.config({ path: "./config.env" });
+  : BEFORE
+    dotenv.config();
+*/
+
 dotenv.config({ path: "./config.env" });
 const app = require("./app");
 
