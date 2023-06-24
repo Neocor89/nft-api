@@ -1,6 +1,10 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 
-const PRIVATE_KEY = "YOUR PRIVATE KEY";
+//: Adding process env private key
+require("dotenv").config();
+
+//: Replace private key for process.env
+const PRIVATE_KEY = process.env.PRIVATE_KEY_ACCOUNT;
 const RPC_URL = "https://rpc.ankr.com/polygon_mumbai";
 module.exports = {
   defaultNetwork: "polygon_mumbai",
