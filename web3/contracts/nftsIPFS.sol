@@ -3,9 +3,9 @@ pragma solidity ^0.8.9;
 
 contract nftsIPFS {
 
-  // address payable contractOwner = payable(0xf0000000000000000000000000000000000000);
+  address payable contractOwner = payable(0x70997970C51812dc3A010C7d01b50e0d17dc79C8);
 
-  uint256 public listingPrice = 0.25 ether;
+  uint256 public listingPrice = 0.025 ether;
 
 
   struct NFTs {
@@ -71,8 +71,7 @@ contract nftsIPFS {
     return items;
   }
 
-  function getImage(uint256 id) external view 
-    returns (
+  function getImage(uint256 id) external view returns (
       string memory,
       string memory,
       string memory,
@@ -97,35 +96,34 @@ contract nftsIPFS {
       );
     }
 
-// TODO
-//+ RESTART HERE FIX ERROR SYNTAX IN UPLOAD FUNCTION
+
     //: UDDATE THE LISTING PRICE OF THE CONTRACT
-    // function updateListingPrice(uint256 _listingPrice, address owner) public payable {
-    //   require(
-    //     contractOwner == owner,
-    //     "Only contract owner can update listing price."
-    //   );
-    //   listingPrice = _listingPrice;
-    // }
+    function updateListingPrice(uint256 _listingPrice, address owner) public payable {
+      require(
+        contractOwner == owner,
+        "Only contract owner can update listing price."
+      );
+      listingPrice = _listingPrice;
+    }
 
     // //: DONATION FUNCTION
-    // function donateToImage(uint256 _id) public {
-    //   uint256 amount = msg.value;
+    function donateToImage(uint256 _id) public payable {
+      uint256 amount = msg.value;
 
-    //   NFTs storage nft = nftImages[_id];
+      NFTs storage nft = nftImages[_id];
 
-    //   (bool sent,) = payable(nft.creator).call{value: amount}("");
+      (bool sent,) = payable(nft.creator).call{value: amount}("");
 
-    //   if (sent) {
-    //     nft.fundraised = nft.fundraised + amount;
-    //   }
-    // }
+      if (sent) {
+        nft.fundraised = nft.fundraised + amount;
+      }
+    }
 
-    // function withdraw(address _owner) external {
-    //   require(_owner == contractOwner, "Only owner can withdraw");
-    //   uint256 balance = address(this).balance;
-    //   require(balance >0, "No funds available!");
+    function withdraw(address _owner) external {
+      require(_owner == contractOwner, "Only owner can withdraw");
+      uint256 balance = address(this).balance;
+      require(balance > 0, "No funds available!");
 
-    //   contractOwner.transfer(balance);
-    // }
+      contractOwner.transfer(balance);
+    }
   }
