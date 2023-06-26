@@ -2,7 +2,7 @@
 
 This project is an API for managing non-fungible tokens (NFTs). It provides a set of endpoints to interact with NFTs, including creating, updating, and querying NFT metadata.
 
-<img src="https://res.cloudinary.com/dwoifuutn/image/upload/v1687718816/nfts-api-project_ryyrrp.jpg" style="max-width: 400px; height: 400px; margin-top: 15px; margin-bottom: 10px;"/>
+<img src="https://res.cloudinary.com/dwoifuutn/image/upload/v1687802962/nft-api_zwa5ib.png" style="max-width: 400px; height: 400px; margin-top: 15px; margin-bottom: 10px;"/>
 
 #
 
