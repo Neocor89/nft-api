@@ -1,7 +1,9 @@
 import React from "react";
 
+//: INTERNAL IMPORTS
+
 function layout() {
-  return <div>Layout</div>;
+  return <div>INDEX</div>;
 }
 
 export default layout;
