@@ -5,8 +5,11 @@
 */
 
 .spinner {
+  /*: ADDING MARGIN FOR VISIBILITY */
   width: 70.4px;
   height: 70.4px;
+  margin-left: 50px;
+  margin-top: 50px;
   --clr: #AE99FF;
   --clr-primary: rgb(247, 197, 159, 0.1);
   background: linear-gradient(-45deg, #AE99FF 0%, #8CEDE9 100%);
