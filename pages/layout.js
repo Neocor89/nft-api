@@ -1,9 +1,15 @@
 import React from "react";
 
-//: INTERNAL IMPORTS
+//: INTERNAL COMPONENTS IMPORTS
+import { Logo, Button } from "../Components";
 
-function layout() {
-  return <div>INDEX</div>;
-}
+const layout = () => {
+  return (
+    <div className="home">
+      <Logo />
+      <Button />
+    </div>
+  );
+};
 
 export default layout;
