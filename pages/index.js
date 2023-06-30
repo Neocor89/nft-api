@@ -1,14 +1,7 @@
 import React from "react";
-import { Logo } from "../Components";
-
-//: INTERNAL IMPORTS
 
 const index = () => {
-  return (
-    <div>
-      <Logo />
-    </div>
-  );
+  return <div>INDEX PAGE</div>;
 };
 
 export default index;
