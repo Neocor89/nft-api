@@ -1,9 +1,25 @@
 import React from "react";
 
-//todo
-// RESTART HERE
-const Button = () => {
-  return <div>Button</div>;
+//: INTERNAL CSS IMPORTS
+import Style from "./Button.module.css";
+
+const Button = ({ connect, disconnect, address, file }) => {
+  return (
+    <>
+      {address ? (
+        <button onClick={() => disconnect()} className={Style.button}>
+          <span className={Style.button_content}>
+            {" "}
+            {file ? "Upload" : "Disconnect"}{" "}
+          </span>
+        </button>
+      ) : (
+        <button onClick={() => connect()} className={Style.button}>
+          <span className={Style.button_content}>Connect </span>
+        </button>
+      )}
+    </>
+  );
 };
 
 export default Button;
