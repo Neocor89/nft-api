@@ -4,9 +4,9 @@
   height: 3rem;
   padding: 0 2rem;
   border-radius: 1.5rem;
-  background: linear-gradient(-45deg, #8CEDE9 70%, #AE99FF 100%);
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   background-size: 400%;
-  color: #ffffff;
+  color: #454545;
   font-weight: 600;
   border: none;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
@@ -23,7 +23,7 @@
 }
 
 .button::before {
-  content: " ";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -32,6 +32,6 @@
   width: 100%;
   height: inherit;
   border-radius: inherit;
-  background: linear-gradient(-45deg, #AE99FF 0%, #8CEDE9 100%);
+   background: linear-gradient(-45deg, #AE99FF 0%, #8CEDE9 100%);
   transition: all 0.475s;
 }
