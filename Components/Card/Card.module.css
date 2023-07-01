@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.number {
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  font-family: 'Poppins', sans-serif;
+  color:#212125;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  margin-left: 1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background: transparent;
+  color: #ffffff;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.content .heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.content .para {
+  line-height: 1.4;
+}
+
+.para img {
+  border: 1px solid #baefed;
+}
+
+.para_small {
+  padding-left: 1rem;
+}
+
+.content .button {
+  color: #212325;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(180deg, #75EEBB 0%, #D16FE1 100%);
+  z-index: -1;
+  color: #212125;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.card:hover::before {
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.content .button:hover {
+ background: linear-gradient(180deg, #75EEBB 100%, rgba(33, 35, 37, 0.50) 0%);
+}
+
+.content .button:active {
+  box-shadow: none;
+}
+
+.image {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+/*
+.content .button:hover {
+  background: transparent;
+  color: #ffffff; 
+  border: 1px solid #75EEBB;
+}
+.card:hover .number {
+  color: #ffffff;
+ background: linear-gradient(180deg, #AE99FF 0%, rgba(33, 35, 37, 0.50) 100%);
+}
+
+.content:hover {
+  color: #212125;
+}
+
+.card:hover .button {
+ background: linear-gradient(180deg, #AE99FF 0%, rgba(33, 35, 37, 0.50) 100%);
+}
+*/
+
