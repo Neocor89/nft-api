@@ -49,7 +49,7 @@
 
 .footer_social a:hover {
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
-  color: #FFFFFF;
+  color: #212325;
   box-shadow: var(--box-shadow);
 }
 
@@ -67,7 +67,7 @@
   align-items: center;
   padding: 1.5rem 2rem;
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
-  color: #FFFFFF;
+  color: #212325;
   border-radius: 5rem;
   margin-top: 3rem;
 }
@@ -77,11 +77,11 @@
   border: none;
   outline: none;
   width: 90%;
-  color: #FFFFFF;
+  color: #212325;
 }
 
 .subscribe_container input::placeholder {
-  color: #FFFFFF;
+  color: #212325;
 }
 
 .subscribe_container_email {
@@ -97,11 +97,13 @@
 }
 
 /*: MEDIA QUERY */
+/*! FIX DISPLAYING WITH INPUT EMAIL WIDTH */
+
 
 @media screen and (max-width: 55em) {
   .footer_container {
     width: 90%;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
   }
 }
 
