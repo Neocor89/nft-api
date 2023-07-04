@@ -1,7 +1,7 @@
 import React from "react";
 
 //: INTERNAL COMPONENTS IMPORTS
-import { Logo, Button, Card } from "../Components";
+import { Logo, Button, Card, Footer } from "../Components";
 
 const layout = () => {
   return (
@@ -9,6 +9,7 @@ const layout = () => {
       <Logo />
       <Button />
       <Card />
+      <Footer />
     </div>
   );
 };
