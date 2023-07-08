@@ -37,6 +37,7 @@ const Filter = ({
     }
   };
 
+  //: INPUT TEXT FUNCTION
   useEffect(() => {
     const timer = setTimeout(() => setSearch(debouncedSearch), 1000);
   
