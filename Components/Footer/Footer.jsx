@@ -20,7 +20,7 @@ const Footer = () => {
       <div className={Style.footer_container}>
         <div className={Style.footer_container_social}>
           <a href="/">
-            <Logo className={Style.footer_container_social_logo} />
+            <Logo />
           </a>
           <p className={Style.footer_container_social_info}>
             Digital Marketplace for NFT creators for switch anf changong your Crypto creation
