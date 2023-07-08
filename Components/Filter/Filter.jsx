@@ -104,11 +104,10 @@ const Filter = ({
         </div>
 
         {toggle && (
-          <div className={Style.filter_container}>
+          <div className={Style.filter_creator_container}>
             {filter.map((el, i) => (
               <p 
-                key={i} 
-                className={Style.filter_para}
+                key={i}
                 onClick={() => setActiveSelect(el.name)}
               >
                 {el.name}
