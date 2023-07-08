@@ -6,8 +6,8 @@
 
 .spinner {
   /*: ADDING MARGIN FOR VISIBILITY */
-  width: 70.4px;
-  height: 70.4px;
+  width: 60.4px;
+  height: 60.4px;
   margin-left: 50px;
   margin-top: 50px;
   --clr: #AE99FF;
