@@ -1,6 +1,6 @@
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
-import "../styles/globals.css";
 import { StateContextProvider } from "../Context/NFTs";
+import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   return (
