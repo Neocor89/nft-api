@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 .card {
   position: relative;
   display: flex;
@@ -15,7 +13,6 @@
 
 .number {
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
-  font-family: 'Poppins', sans-serif;
   color:#212125;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
