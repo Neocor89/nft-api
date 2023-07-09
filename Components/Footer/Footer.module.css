@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-
 .footer {
   width: 100%;
   padding-block: 1.5rem;
@@ -9,9 +6,8 @@
 }
 
 .footer_container_social_info {
-  font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
-  margin-top: 4.4rem;
+  margin-top: 4rem;
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,7 +61,6 @@
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Poppins', sans-serif;
 }
 
 .footer_container_help h3 {
@@ -106,13 +101,26 @@
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
 }
 
-/*: MEDIA QUERY */
-/*! FIX DISPLAYING WITH INPUT EMAIL WIDTH */
 
+/*: MEDIA QUERY */
+@media screen and (max-width: 55em) {
+  .subscribe_container input {
+    font-size: 0.7rem;
+    padding: 0;
+  }
+
+  .subscribe_container_email {
+    font-size: 1.1rem;
+  }
+
+  /* .footer_container_social_info {
+    margin-top: 4rem;
+  } */
+
+}
 
 @media screen and (max-width: 50em) {
   .footer_container {
