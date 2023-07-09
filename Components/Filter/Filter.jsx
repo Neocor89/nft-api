@@ -37,23 +37,26 @@ const Filter = ({
     }
   };
 
+  // TODO
+  //+ RESTART HERE CHANGING CSS STYLE
+
   //: INPUT TEXT FUNCTION
-  useEffect(() => {
-    const timer = setTimeout(() => setSearch(debouncedSearch), 1000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => setSearch(debouncedSearch), 1000);
   
-    return () => clearTimeout(timer);
-  }, [debouncedSearch]);
+  //   return () => clearTimeout(timer);
+  // }, [debouncedSearch]);
 
-  useEffect(() => {
-    setAllImages(oldImages);
-    setImagesCopy(oldImages);
+  // useEffect(() => {
+  //   setAllImages(oldImages);
+  //   setImagesCopy(oldImages);
 
-    if (search) {
-      onHandleSearch(search);
-    } else {
-      onClearSearch();
-    }
-  }, [search]);
+  //   if (search) {
+  //     onHandleSearch(search);
+  //   } else {
+  //     onClearSearch();
+  //   }
+  // }, [search]);
 
   const filter = [
     {
@@ -64,13 +67,13 @@ const Filter = ({
     },
   ];
 
-  useEffect(() => {
-    if (activeSelect == "Old Images") {
-      setAllImages(oldImages);
-    } else {
-      setAllImages(oldImages.reverse());
-    }
-  }, [activeSelect]);
+  // useEffect(() => {
+  //   if (activeSelect == "Old Images") {
+  //     setAllImages(oldImages);
+  //   } else {
+  //     setAllImages(oldImages.reverse());
+  //   }
+  // }, [activeSelect]);
   
   
   return (
@@ -81,13 +84,14 @@ const Filter = ({
           alt={"NFT creation"}
           width={20}
           height={20} 
+          className={Style.filter_container_search}
         />
         <input 
           type="text"
-          placeholder="Search awesome address..."
+          placeholder="Search best address..."
           onChange={(e) => setDebouncedSearch(e.target.value)}
           value={debouncedSearch}
-          className={Style.filter_input} />
+          className={Style.filter_container_input} />
       </div>
 
       <div 
@@ -99,7 +103,7 @@ const Filter = ({
         <Image 
           src={images.arrow} 
           width={10}
-          height={10}
+          height={8}
         />
         </div>
 
