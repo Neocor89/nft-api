@@ -26,19 +26,19 @@ const Footer = () => {
             Digital Marketplace for NFT creators for switch anf changong your Crypto creation
           </p>
         <div className={Style.footer_social}>
-        <a href="#">
+        <a href="https://www.facebook.com/">
           <TiSocialFacebook className={Style.social_icons} />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/benoit-cortes/">
           <TiSocialLinkedin className={Style.social_icons} />
         </a>
-        <a href="#">
+        <a href="https://twitter.com/bendevweb89">
           <TiSocialTwitter className={Style.social_icons} />
         </a>
-        <a href="#">
+        <a href="https://www.youtube.com/@bendevweb89">
           <TiSocialYoutube className={Style.social_icons} />
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/">
           <TiSocialInstagram className={Style.social_icons} />
         </a>
       </div>
