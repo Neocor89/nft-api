@@ -1,12 +1,9 @@
-/* 
-#F9B5F9: PINK, 
-#AE99FF: PURPLE, 
-#8CEDE9: BLUE 
-*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
   background-color: #1a1a1a;
   color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*: HOME PAGE :*/
