@@ -5,7 +5,6 @@
 */
 
 .spinner {
-  /*: ADDING MARGIN FOR VISIBILITY */
   width: 60.4px;
   height: 60.4px;
   margin-left: 50px;
@@ -65,5 +64,13 @@
 
   100% {
     transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .spinner {
+    width: 52.4px;
+    height: 52.4px;
+    margin-left: 20px;
   }
 }
