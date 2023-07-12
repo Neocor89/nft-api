@@ -9,6 +9,7 @@ import {
   CheckBox,
   Filter,
   Donate,
+  Form,
 } from "../Components";
 
 const layout = () => {
@@ -21,6 +22,8 @@ const layout = () => {
       <Card />
       <p>DONATE</p>
       <Donate />
+      <p>FORM</p>
+      <Form />
       <p>CHECKBOX</p>
       <CheckBox />
       <Footer />
