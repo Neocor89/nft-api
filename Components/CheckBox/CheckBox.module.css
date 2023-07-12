@@ -2,9 +2,11 @@
   display: flex;
   align-items: center;
   font-size: 16px;
-  color: #212325;
+  color: #75755E;
   cursor: pointer;
 }
+
+
 
 .material_checkbox input[type="checkbox"] {
   position: absolute;
