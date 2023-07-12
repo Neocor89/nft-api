@@ -4,10 +4,6 @@ import React from "react";
 import Style from "./Donate.module.css"
 import { FormSVG } from "../SVG/index";
 
-
-// TODO
-//+ CHECK CLASS RESULT
-
 const Donate = ({ setDonate, setSupport, donateAmount, setLoading }) => {
   return (
       <div class={Style.container}>
