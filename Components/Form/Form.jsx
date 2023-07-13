@@ -21,7 +21,7 @@ const Form = ({
           <p id="heading" class={Style.heading}>
             Upload Image
           </p>
-          <div class={Style.filed}>
+          <div class={Style.field}>
             <FormSVG styleClass={Style.input_icon} />
             <input 
               type="text" 
@@ -44,6 +44,7 @@ const Form = ({
             <FormSVG styleClass={Style.input_icon} />
             <input 
               type="email" 
+              class={Style.input_field}
               placeholder="email" 
               onChange={(e) => handleFormFieldChange("email", e)} 
             />
