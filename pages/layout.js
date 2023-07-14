@@ -10,6 +10,7 @@ import {
   Filter,
   Donate,
   Form,
+  Notification,
 } from "../Components";
 
 const layout = () => {
@@ -17,6 +18,8 @@ const layout = () => {
     <div className="home">
       <Logo />
       <Button />
+      <p>NOTIFICATION</p>
+      <Notification />
       <p>FILTER</p>
       <Filter />
       <Card />
