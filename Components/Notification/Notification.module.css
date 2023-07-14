@@ -1,0 +1,41 @@
+.alert {
+  padding: 18px;
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  color: #212325;
+  position: fixed;
+  top: 12.5rem;
+  right: 8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 111111111;
+  font-size: 15px;
+}
+
+.close_button {
+  margin-left: 15px;
+  color: #212325;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 23px;
+  transition: 0.3s;
+}
+
+.close_button:hover {
+  color: #FFFFFF;
+}
+
+/*
+: MEDIA QUERY */
+@media screen and (max-width: 50em) {
+  .alert {
+    top: 2rem;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .alert {
+    width: 80%;
+    left: 1rem;
+  }
+}
