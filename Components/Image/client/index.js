@@ -13,6 +13,8 @@ import client12 from "./client-12.png";
 import client13 from "./client-13.png";
 import client14 from "./client-14.png";
 import client15 from "./client-15.png";
+import trashLogo from "./logo-userProfile.png";
+import bookLogo from "./book-logo.png";
 
 export default {
   client1,
@@ -25,8 +27,11 @@ export default {
   client8,
   client9,
   client10,
+  client11,
   client12,
   client13,
   client14,
   client15,
+  trashLogo,
+  bookLogo,
 };
