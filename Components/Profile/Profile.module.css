@@ -1,0 +1,106 @@
+.container {
+  width: 17rem;
+  height: 23.5rem;
+  transition: 1s ease-in-out;
+  clip-path: polygon(
+    30px, 0%, 
+    100%, 0, 
+    100%, calc(100% -30px), 
+    calc(100% -30px) 100%, 
+    0, 100%, 
+    0% 30px
+  );
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+}
+
+.container span {
+  font-weight: bold;
+  color: #212325;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.container .info {
+  font-weight: 400;
+  color: #212325;
+  text-align: center;
+  display: block;
+  font-size: 0.7em;
+  margin: 0.5rem 1rem;
+}
+
+.container .image {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 15px;
+  margin: 10px auto;
+}
+
+.image {
+  border-radius: 80px;
+}
+
+.container .share_container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container a {
+  color: #fff;
+  border-radius: 15px;
+  height: 17px;
+  padding: 0.3em;
+  transition: all 0.3s ease-in;
+}
+
+.container a:hover {
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  color: #212325;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .button {
+  padding: 0.7rem 1.8rem;
+  display: block;
+  margin: auto auto 10px auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  color: #454545;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container .button:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #75EEBB 100%, rgba(33, 35, 37, 0.50) 0%);
+  transition: all 0.475s;
+}
+
+
+
+
+/*
+
+.container a {
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
+  display: grid;
+  color: #fff;
+}
+
+.container a:hover {
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  color: #212325;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+ */
