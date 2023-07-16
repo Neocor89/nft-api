@@ -11,6 +11,7 @@ import {
   Donate,
   Form,
   Notification,
+  Profile,
 } from "../Components";
 
 const layout = () => {
@@ -27,6 +28,8 @@ const layout = () => {
       <Donate />
       <p>FORM</p>
       <Form />
+      <p>PROFILE</p>
+      <Profile />
       <p>CHECKBOX</p>
       <CheckBox />
       <Footer />
