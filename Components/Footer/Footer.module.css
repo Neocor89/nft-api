@@ -47,7 +47,7 @@
 .footer_social a:hover {
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   color: #212325;
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .menu {
