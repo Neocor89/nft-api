@@ -100,3 +100,13 @@ This project is licensed under the [MIT License](LICENSE).
 #
 
 Feel free to modify and customize this README file according to your specific needs.
+
+<div style="margin-top: 30px;"></div>
+
+### **PROVISIONAL RENDER**
+
+---
+
+`FOOTER OF PROJECT "NFT SHARING"`
+
+<img src="./public/README-asset/readme-render-NFT-app.png" style="max-width: 400px; margin-top: 20px;" alt="Footer of NFT sharing project" />
