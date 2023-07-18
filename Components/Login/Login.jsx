@@ -7,7 +7,7 @@ import Style from "./Login.module.css";
 import { Notification } from "../index";
 
 
-const Login = ({ setLogin, setSignup, notfication, setNotification }) =>{
+const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
 
   //: API LOGIN
   const [user, setUser] = useState({
@@ -103,6 +103,12 @@ const Login = ({ setLogin, setSignup, notfication, setNotification }) =>{
     </div>
 
     //: NOTIFICATION PART
+    {notification != "" && (
+      <Notification
+        notification={notification}
+        setNotification={setNotification}
+      />
+    )}
     </>
   );
 };
