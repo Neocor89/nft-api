@@ -76,7 +76,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 2.5rem;
+  margin-top: 2.2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .third_button {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   padding: 0.7rem;
   border-radius: 5px;
   border: none;
