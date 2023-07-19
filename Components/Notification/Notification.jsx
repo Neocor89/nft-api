@@ -7,7 +7,7 @@ const Notification = ({setNotification, notification}) => {
   return (
     <div onClick={() => setNotification("")} class={Style.alert}>
       {notification} Notification  
-      <span class={Style.close_button}>&times;</span>
+      <span className={Style.close_button}>&times;</span>
     </div>
   );
 };
