@@ -1,5 +1,8 @@
 import React from "react";
 
+// TODO
+//+ RESTART LIGNE 34 & 35 AND ADDING LOGIN COMPONENT
+
 //: INTERNAL COMPONENTS IMPORTS
 import {
   Logo,
@@ -10,6 +13,7 @@ import {
   Filter,
   Donate,
   Form,
+  Login,
   Notification,
   Profile,
 } from "../Components";
@@ -28,6 +32,8 @@ const layout = () => {
       <Donate />
       <p>FORM</p>
       <Form />
+      <p>LOGIN</p>
+      <Login />
       <p>PROFILE</p>
       <Profile />
       <p>CHECKBOX</p>
