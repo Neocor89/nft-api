@@ -78,7 +78,7 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
               onChange={(e) => handleFieldChange("password", e)}
             />
           </div>
-          <div class={Style.button}>
+          <div class={Style.btn_container}>
           <button 
                 class={Style.first_button}
                 onClick={() => setLogin(false)}
@@ -102,7 +102,6 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
       </div>
     </div>
 
-    //: NOTIFICATION PART
     {notification != "" && (
       <Notification
         notification={notification}
