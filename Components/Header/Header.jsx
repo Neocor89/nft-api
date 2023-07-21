@@ -41,22 +41,28 @@ const Header = ({ notification, setNotification }) => {
     setToken(token);
   }, [])
   
-  const logout = (el) => {
+  const logout = () => {
     const token = localStorage.getItem("NFTApi token");
     window.location.reload();
   }
 
   return (
-    <div className={Style.container}>
+    <div className={Style.header}>
       <Logo />
       <div className={Style.menu}>
         {menuList.map((el, i) => (
           <Link className={Style.link} href={el.href} key={i + 1}>
             <p>{el.name}</p>
           </Link>
-          // TODO
-          //+ RESTART HERE
         ))}
+        {token ? (
+          <p onClick={() => logout()}>Logout</p>
+        ) : (
+          <>
+          <p onClick={() => openModel("Login")}>Login</p>
+          <p onClick={() => openModel("SignUp")}>SignUp</p>
+          </>
+        ) }
       </div>
     </div>
   );
