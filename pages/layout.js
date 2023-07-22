@@ -5,6 +5,7 @@ import React from "react";
 
 //: INTERNAL COMPONENTS IMPORTS
 import {
+  Header,
   Logo,
   Button,
   Card,
@@ -21,6 +22,9 @@ import {
 const layout = () => {
   return (
     <div className="home">
+      <p>HEADER</p>
+      <Header />
+      <p>LOGO</p>
       <Logo />
       <Button />
       <p>NOTIFICATION</p>
