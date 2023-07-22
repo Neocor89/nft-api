@@ -5,10 +5,12 @@ import img4 from "./4.jpg";
 import img5 from "./5.jpg";
 import img6 from "./6.jpg";
 
-//ICON
+//: ICON
 import search from "./Search.png";
 import arrow from "./arrow.png";
 
+//: HEADER LOGO
+import HeaderLogo from "./header-logo.png";
 export default {
   img1,
   img2,
@@ -16,7 +18,9 @@ export default {
   img4,
   img5,
   img6,
-  //ICONS
+  //: ICONS
   search,
   arrow,
+  //: HEADER LOGO
+  HeaderLogo,
 };
