@@ -1,5 +1,5 @@
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 //: INTERNAL IMPORTS
 import Style from "./Header.module.css";
@@ -39,14 +39,15 @@ const Header = ({ notification, setNotification }) => {
   useEffect(() => {
     const token = localStorage.getItem("NFTApi token");
     setToken(token);
-  }, [])
+  }, []);
   
   const logout = () => {
-    const token = localStorage.getItem("NFTApi token");
+    localStorage.removeItem("NFTApi token");
     window.location.reload();
   }
 
   return (
+    <>
     <div className={Style.header}>
       <Logo />
       <div className={Style.menu}>
@@ -60,11 +61,40 @@ const Header = ({ notification, setNotification }) => {
         ) : (
           <>
           <p onClick={() => openModel("Login")}>Login</p>
-          <p onClick={() => openModel("SignUp")}>SignUp</p>
+          <p onClick={() => openModel("Signup")}>SignUp</p>
           </>
         ) }
       </div>
     </div>
+
+    {/* SIGNUP */}
+    {signup && (
+      <div className={Style.form}>
+      <div className={Style.form_inner}>
+      <SignUp 
+        setLogin={setLogin}
+        setSignup={setSignup}
+        notification={notification}
+        setNotification={setNotification}
+        />
+      </div>
+      </div>
+    )}
+
+    {/* LOGIN */}
+    {login && (
+      <div className={Style.form}>
+      <div className={Style.form_inner}>
+      <Login 
+        setLogin={setLogin}
+        setSignup={setSignup}
+        notification={notification}
+        setNotification={setNotification}
+        />
+      </div>
+      </div>
+    )}
+    </>
   );
 };
 
