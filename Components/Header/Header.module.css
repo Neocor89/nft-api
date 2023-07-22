@@ -1,4 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  cursor: grab;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #212325;
+  z-index: 11111;
+}
+
+.form_inner {
+  width: 40%;
+  padding-top: 2.5rem;
+  margin: 0 auto;
+}
+
 /*
-TODO
-+ START CSS HERE
+: MEDIA QUERY
 */
+@media screen and (max-width: 50em) {
+  .header {
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .menu {
+    gap: 0.5rem;
+  }
+
+  .form_inner {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .menu {
+    gap: 0.5rem;
+    display: flex;
+  }
+}
