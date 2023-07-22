@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 //: INTERNAL IMPORTS
 import Style from "./Header.module.css";
-import { Logo, Login, SignUp } from "../index";
+import { Login, SignUp } from "../index";
+import imagesNFT from "../Image/index";
+// import { HeaderLogo } from "../Image/index";
 
 
 const Header = ({ notification, setNotification }) => {
@@ -49,10 +52,16 @@ const Header = ({ notification, setNotification }) => {
   return (
     <>
     <div className={Style.header}>
-      <Logo />
+      <Image
+        className={Style.header_logo}
+        src={imagesNFT.HeaderLogo} 
+        alt={"header logo"}
+        width={50}
+        height={50} 
+      />      
       <div className={Style.menu}>
         {menuList.map((el, i) => (
-          <Link className={Style.link} href={el.href} key={i + 1}>
+          <Link className={Style.link} href={el.link} key={i + 1}>
             <p>{el.name}</p>
           </Link>
         ))}
