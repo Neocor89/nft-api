@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  background-image: linear-gradient(290deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   margin-bottom: 4rem;
+  max-height: 70px;
 }
 
 .menu {
@@ -14,9 +15,15 @@
   cursor: grab;
 }
 
+
+.menu > p {
+  color: #212325;
+  font-weight: 600;
+}
+
 .link {
   text-decoration: none;
-  color: #fff;
+  color: #212325;
 }
 
 .form {
