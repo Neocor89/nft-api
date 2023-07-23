@@ -9,6 +9,10 @@
   max-height: 70px;
 }
 
+.header_logo {
+  object-fit: cover;
+}
+
 .menu {
   display: flex;
   gap: 2rem;
