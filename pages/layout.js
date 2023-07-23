@@ -27,7 +27,6 @@ const layout = () => {
       <p>LOGO</p>
       <Logo />
       <Button />
-      <p>NOTIFICATION</p>
       <Notification />
       <p>FILTER</p>
       <Filter />
