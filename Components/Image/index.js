@@ -10,7 +10,7 @@ import search from "./Search.png";
 import arrow from "./arrow.png";
 
 //: HEADER LOGO
-import HeaderLogo from "./header-logo.png";
+import HeaderLogo from "./header-logo1-1.png";
 export default {
   img1,
   img2,
