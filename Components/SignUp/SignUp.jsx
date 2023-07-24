@@ -29,6 +29,15 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
       return setNotification("Please provide your all awesome detail!");
     }
     setNotification("Wait your AWESOME account is being created...");
+    try {
+      const response = await axios({
+        method: "POST",
+        url: `/api/v1/user/signup`,
+        withCredentials: true,
+      })
+    } catch (error) {
+      console.error(error);
+    }
   }
   return <div>SignUp</div>;
 };
