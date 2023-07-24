@@ -13,6 +13,23 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
     password: "",
     passwordConfirm: "",
   });
+
+  const handleFormFieldChange = (fieldName, e) => {
+    setUser({ ...user, [fieldName]: e.target.value });
+  };
+
+  const createAccount = async (e) => {
+    e.preventDefault();
+    if (
+      user.name == "" || 
+      user.email == "" || 
+      user.password == "" || 
+      user.passwordConfirm
+    ) {
+      return setNotification("Please provide your all awesome detail!");
+    }
+    setNotification("Wait your AWESOME account is being created...");
+  }
   return <div>SignUp</div>;
 };
 
