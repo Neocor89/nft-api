@@ -6,7 +6,13 @@ import Style from "./SignUp.module.css";
 import { FormSVG, Lock } from "../SVG";
 import Notification from "../index";
 
-const SignUp = () => {
+const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
+  const [user, setUser] = useState({
+    name: "",
+    email: "",
+    password: "",
+    passwordConfirm: "",
+  });
   return <div>SignUp</div>;
 };
 
