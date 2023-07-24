@@ -30,6 +30,7 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
     }
     setNotification("Wait your AWESOME account is being created...");
     try {
+      //: API IMPLEMENTATION
       const response = await axios({
         method: "POST",
         url: `/api/v1/user/signup`,
@@ -38,6 +39,8 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
     } catch (error) {
       console.error(error);
     }
+    // TODO
+    //+ RESTART HERE
   }
   return <div>SignUp</div>;
 };
