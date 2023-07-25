@@ -63,7 +63,7 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
         <div class={Style.content}>
           <form class={Style.form}>
             <p className={Style.heading}>
-              
+              <SignUp />
             </p>
           </form>
         </div>
