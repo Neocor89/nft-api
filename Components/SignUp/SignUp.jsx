@@ -57,7 +57,19 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
   };
   // TODO
   //+ RESTART HERE
-  return <div>SignUp</div>;
+  return (
+    <>
+      <div class={Style.container}>
+        <div class={Style.content}>
+          <form class={Style.form}>
+            <p className={Style.heading}>
+              
+            </p>
+          </form>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default SignUp;
