@@ -55,16 +55,24 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
       console.error(error);
     }
   };
-  // TODO
-  //+ RESTART HERE
+  
   return (
     <>
       <div class={Style.container}>
         <div class={Style.content}>
           <form class={Style.form}>
-            <p className={Style.heading}>
-              <FormSVG styleClass={Style.input_icon} />
+            <p id="heading" className={Style.heading}>
+              SignUp
             </p>
+            <div class={Style.field}>
+              <FormSVG styleClass={Style.input_icon} />
+              <input 
+                type="text" 
+                class={Style.input_field} 
+                placeholder="name"
+                autoComplete="off"
+              />
+            </div>
           </form>
         </div>
       </div>
