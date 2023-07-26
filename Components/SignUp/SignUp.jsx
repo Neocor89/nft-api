@@ -94,6 +94,10 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
                 onChange={(e) => handleFormFieldChange("password", e)}
               />
             </div>
+            {/* 
+              TODO
+              RESTART HERE 
+            */}
           </form>
         </div>
       </div>
