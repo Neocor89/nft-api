@@ -84,6 +84,16 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
                 onChange={(e) => handleFormFieldChange("email", e)}
               />
             </div>
+            <div class={Style.field}>
+            <Lock styleClass={Style.input_icon} />
+              <input 
+                type="text" 
+                class={Style.input_field} 
+                placeholder="password"
+                autoComplete="off"
+                onChange={(e) => handleFormFieldChange("password", e)}
+              />
+            </div>
           </form>
         </div>
       </div>
