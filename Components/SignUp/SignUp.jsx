@@ -71,6 +71,17 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
                 class={Style.input_field} 
                 placeholder="name"
                 autoComplete="off"
+                onChange={(e) => handleFormFieldChange("name", e)}
+              />
+            </div>
+            <div class={Style.field}>
+            <FormSVG styleClass={Style.input_icon} />
+              <input 
+                type="email" 
+                class={Style.input_field} 
+                placeholder="email"
+                autoComplete="off"
+                onChange={(e) => handleFormFieldChange("email", e)}
               />
             </div>
           </form>
