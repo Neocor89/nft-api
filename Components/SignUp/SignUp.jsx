@@ -127,6 +127,11 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
           </form>
         </div>
       </div>
+
+      {/* 
+        TODO 
+        START HERE NOTIFICATION SECTION 
+      */}
     </>
   );
 };
