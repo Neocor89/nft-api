@@ -111,6 +111,12 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
               >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
+              <button 
+                class={Style.button_second}
+                onClick={() => setSignup(false)}
+              >
+                Close
+              </button>
             </div>
           </form>
         </div>
