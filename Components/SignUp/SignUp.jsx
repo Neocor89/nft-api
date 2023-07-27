@@ -96,7 +96,7 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
             </div>
             {/* 
               TODO
-              RESTART HERE 
+              RESTART HERE AND CHECK RESULT
             */}
           </form>
         </div>
