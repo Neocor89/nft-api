@@ -117,6 +117,12 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
               >
                 Close
               </button>
+              <button 
+                class={Style.button_third}
+                onClick={(e) => createAccount(e)}
+              >
+                SignUp
+              </button>
             </div>
           </form>
         </div>
