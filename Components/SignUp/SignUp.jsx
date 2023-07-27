@@ -94,10 +94,24 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
                 onChange={(e) => handleFormFieldChange("password", e)}
               />
             </div>
-            {/* 
-              TODO
-              RESTART HERE AND CHECK RESULT
-            */}
+            <div class={Style.field}>
+              <Lock styleClass={Style.input_icon} />
+              <input 
+                type="text" 
+                class={Style.input_field}
+                placeholder="passwordConfirm"
+                onChange={(e) => handleFormFieldChange("passwordConfirm", e)}
+              />
+            </div>
+
+            <div class={Style.button}>
+              <button 
+                class={Style.button_first}
+                onClick={() => (setLogin(true), setSignup(false))}
+              >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </button>
+            </div>
           </form>
         </div>
       </div>
