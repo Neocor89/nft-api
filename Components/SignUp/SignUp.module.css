@@ -17,3 +17,22 @@
   -webkit-text-fill-color: transparent;
   font-size: 1.2rem;
 }
+
+.content {
+  -webkit-background-clip: text;
+  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 20px;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #212325;
+  box-shadow: 2px 5px 10px rgba(5, 5, 5);
+}
