@@ -26,7 +26,7 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
       user.password == "" || 
       user.passwordConfirm
     ) {
-      return setNotification("Please provide your all detail!");
+      return setNotification("Please complete all fields!");
     }
     setNotification("Wait your AWESOME account is being created...");
     try {
