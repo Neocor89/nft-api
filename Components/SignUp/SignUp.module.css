@@ -36,3 +36,23 @@
   background-color: #212325;
   box-shadow: 2px 5px 10px rgba(5, 5, 5);
 }
+
+.input_icon {
+  height: 1.3rem;
+  width: 1.3rem;
+  fill: #8CEDE9;
+}
+
+.input_field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #F9B5BC;
+  height: 3rem;
+}
+
+.textarea {
+  height: 6rem;
+  resize: none;
+}
