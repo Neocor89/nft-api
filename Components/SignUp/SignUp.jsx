@@ -58,68 +58,68 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
   
   return (
     <>
-      <div className={Style.container}>
-        <div className={Style.content}>
-          <form className={Style.form}>
-            <p id="heading" className={Style.heading}>
+      <div class={Style.container}>
+        <div class={Style.content}>
+          <form class={Style.form}>
+            <p id="heading" class={Style.heading}>
               SignUp
             </p>
-            <div className={Style.field}>
+            <div class={Style.field}>
               <FormSVG styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                className={Style.input_field} 
+                class={Style.input_field} 
                 placeholder="name"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("name", e)}
               />
             </div>
-            <div className={Style.field}>
-            <FormSVG styleclassName={Style.input_icon} />
+            <div class={Style.field}>
+            <FormSVG styleclass={Style.input_icon} />
               <input 
                 type="email" 
-                className={Style.input_field} 
+                class={Style.input_field} 
                 placeholder="email"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("email", e)}
               />
             </div>
-            <div className={Style.field}>
+            <div class={Style.field}>
             <Lock styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                className={Style.input_field} 
+                class={Style.input_field} 
                 placeholder="password"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("password", e)}
               />
             </div>
-            <div className={Style.field}>
+            <div class={Style.field}>
               <Lock styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                className={Style.input_field}
+                class={Style.input_field}
                 placeholder="passwordConfirm"
                 onChange={(e) => handleFormFieldChange("passwordConfirm", e)}
               />
             </div>
 
-            <div className={Style.button}>
+            <div class={Style.button}>
               <button 
-                className={Style.button_first}
+                class={Style.button_first}
                 onClick={() => (setLogin(true), setSignup(false))}
               >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
               <button 
-                className={Style.button_second}
+                class={Style.button_second}
                 onClick={() => setSignup(false)}
               >
                 Close
               </button>
             </div>
               <button 
-                className={Style.button_third}
+                class={Style.button_third}
                 onClick={(e) => createAccount(e)}
               >
                 SignUp
