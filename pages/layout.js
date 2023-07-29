@@ -17,6 +17,7 @@ import {
   Login,
   Notification,
   Profile,
+  SignUp,
 } from "../Components";
 
 const layout = () => {
@@ -37,6 +38,8 @@ const layout = () => {
       <Form />
       <p>LOGIN</p>
       <Login />
+      <p>SIGNUP</p>
+      <SignUp />
       <p>PROFILE</p>
       <Profile />
       <p>CHECKBOX</p>
