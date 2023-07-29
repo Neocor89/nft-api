@@ -52,6 +52,10 @@
   height: 3rem;
 }
 
+.input_field::placeholder {
+  font-size: 14px;
+}
+
 .textarea {
   height: 6rem;
   resize: none;
