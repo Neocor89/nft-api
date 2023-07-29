@@ -9,12 +9,6 @@
   border-radius: 20px;
 }
 
-/*
-TODO 
-: RESTART HERE
-+ CHANGING STYLE FOR EMAIL INPUT IN FORM COMPONENT
-*/
-
 .heading {
   text-align: center;
   margin: 2rem;
@@ -26,7 +20,6 @@ TODO
 
 .content {
   -webkit-background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
 }
 
