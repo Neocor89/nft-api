@@ -4,7 +4,7 @@ import React, { useState } from "react";
 //:INTERNAL IMPORTS
 import Style from "./SignUp.module.css";
 import { FormSVG, Lock } from "../SVG";
-import Notification from "../index";
+import { Notification } from "../index";
 
 const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
   const [user, setUser] = useState({
@@ -21,10 +21,10 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
   const createAccount = async (e) => {
     e.preventDefault();
     if (
-      user.name == "" || 
       user.email == "" || 
       user.password == "" || 
-      user.passwordConfirm
+      user.name == "" || 
+      user.passwordConfirm == ""
     ) {
       return setNotification("Please complete all fields!");
     }
@@ -58,68 +58,68 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
   
   return (
     <>
-      <div class={Style.container}>
-        <div class={Style.content}>
-          <form class={Style.form}>
+      <div className={Style.container}>
+        <div className={Style.content}>
+          <form className={Style.form}>
             <p id="heading" className={Style.heading}>
               SignUp
             </p>
-            <div class={Style.field}>
+            <div className={Style.field}>
               <FormSVG styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                class={Style.input_field} 
+                className={Style.input_field} 
                 placeholder="name"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("name", e)}
               />
             </div>
-            <div class={Style.field}>
-            <FormSVG styleClass={Style.input_icon} />
+            <div className={Style.field}>
+            <FormSVG styleclassName={Style.input_icon} />
               <input 
                 type="email" 
-                class={Style.input_field} 
+                className={Style.input_field} 
                 placeholder="email"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("email", e)}
               />
             </div>
-            <div class={Style.field}>
+            <div className={Style.field}>
             <Lock styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                class={Style.input_field} 
+                className={Style.input_field} 
                 placeholder="password"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("password", e)}
               />
             </div>
-            <div class={Style.field}>
+            <div className={Style.field}>
               <Lock styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                class={Style.input_field}
+                className={Style.input_field}
                 placeholder="passwordConfirm"
                 onChange={(e) => handleFormFieldChange("passwordConfirm", e)}
               />
             </div>
 
-            <div class={Style.button}>
+            <div className={Style.button}>
               <button 
-                class={Style.button_first}
+                className={Style.button_first}
                 onClick={() => (setLogin(true), setSignup(false))}
               >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
               <button 
-                class={Style.button_second}
+                className={Style.button_second}
                 onClick={() => setSignup(false)}
               >
                 Close
               </button>
             </div>
               <button 
-                class={Style.button_third}
+                className={Style.button_third}
                 onClick={(e) => createAccount(e)}
               >
                 SignUp
@@ -127,10 +127,9 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
           </form>
         </div>
       </div>
-      {/* NOTIFICATION */}
-      {notification != "" && (
+         {notification != "" && (
         <Notification
-          notification={notification}
+        notification={notification}
           setNotification={setNotification}
         />
       )}
