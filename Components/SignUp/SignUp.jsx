@@ -104,22 +104,22 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
               />
             </div>
 
-            <div class={Style.button}>
+            <div class={Style.btn_container}>
               <button 
-                class={Style.button_first}
+                class={Style.first_button}
                 onClick={() => (setLogin(true), setSignup(false))}
               >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
               <button 
-                class={Style.button_second}
+                class={Style.second_button}
                 onClick={() => setSignup(false)}
               >
                 Close
               </button>
             </div>
               <button 
-                class={Style.button_third}
+                class={Style.third_button}
                 onClick={(e) => createAccount(e)}
               >
                 SignUp
