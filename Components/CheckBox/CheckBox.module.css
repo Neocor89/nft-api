@@ -57,7 +57,5 @@
 }
 
 .material_checkbox input[type="checkbox"]:disabled ~ .checkmark:hover {
-  /* border-color: #9abfbe; */
   border-color: #dbc4db;
-  /* border-color: #fae0cd; */
 }
