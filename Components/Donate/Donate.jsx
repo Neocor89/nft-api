@@ -6,16 +6,16 @@ import { FormSVG } from "../SVG/index";
 
 const Donate = ({ setDonate, setSupport, donateAmount, setLoading }) => {
   return (
-      <div class={Style.container}>
-        <div class={Style.content}>
-          <form class={Style.form}>
-            <p id="heading" class={Style.heading}>
+      <div className={Style.container}>
+        <div className={Style.content}>
+          <form className={Style.form}>
+            <p id="heading" className={Style.heading}>
               Support creator work
             </p>
-            <div class={Style.field}>
+            <div className={Style.field}>
               <FormSVG styleClass={Style.input_icon} />
               <input 
-                class={Style.input_field}
+                className={Style.input_field}
                 type="number" 
                 name="Donation" 
                 autoComplete="off"
@@ -25,17 +25,17 @@ const Donate = ({ setDonate, setSupport, donateAmount, setLoading }) => {
               />
             </div>
 
-            <div class={Style.btn_container}>
+            <div className={Style.btn_container}>
               <button 
-                class={Style.first_button}
+                className={Style.first_button}
                 onClick={() => setDonate(false)}
               >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Close&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
-              <button class={Style.second_button}>Sign Up</button>
+              <button className={Style.second_button}>Sign Up</button>
             </div>
             <button 
-                class={Style.third_button}
+                className={Style.third_button}
                 onClick={() => (
                   setLoading(true), donateAmount(), setDonate(false)
                   )
