@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import { FormSVG, Lock } from "../SVG";
 import Style from "./Login.module.css";
 import { Notification } from "../index";
+import Image from "next/image";
+import imagesNFT from "../Image/index";
 
 
 const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
@@ -49,6 +51,8 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
       console.error(error);
     }
   };
+  
+  const [showPassword, setShowPassword] = useState(false);
 
   return (
     <>
@@ -71,15 +75,20 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
           <div class={Style.field}>
             <Lock styleClass={Style.input_icon} />
             <input 
-              type="password" 
+               type={showPassword ? 'text' : 'password'} 
               required
               class={Style.input_field}
               autoComplete="off"
-              // placeholder="Your awesome password"
               onChange={(e) => handleFieldChange("password", e)}
             />
             <span>Your awesome password</span>
-            <div class={Style.toggle}></div>
+            <Image 
+              onClick={() => setShowPassword(!showPassword)}
+              width={25}
+              height={18}
+              style={{marginRight: '20px'}}
+              src={showPassword ? imagesNFT.Hide : imagesNFT.Show}
+            />
           </div>
           <div class={Style.btn_container}>
           <button 
