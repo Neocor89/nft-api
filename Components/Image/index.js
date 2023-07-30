@@ -9,6 +9,7 @@ import img6 from "./6.jpg";
 import search from "./Search.png";
 import arrow from "./arrow.png";
 import Show from "./Show.png";
+import Hide from "./Hide.png";
 
 //: HEADER LOGO
 import HeaderLogo from "./header-logo1-1.png";
@@ -23,6 +24,7 @@ export default {
   search,
   arrow,
   Show,
+  Hide,
   //: HEADER LOGO
   HeaderLogo,
 };
