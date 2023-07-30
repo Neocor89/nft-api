@@ -27,6 +27,17 @@ const Upload = ({ onImageChange, display, retrieveFile }) => {
           </p>
         )}
       </div>
+      <label htmlFor="file" className={Style.footer}>
+        <File />
+        <p>You have not selected a file!</p>
+        <Delete />
+      </label>
+      <input 
+        id="file"
+        type="file" 
+        placeholder="Add your awesome image"
+        onChange={(e) => (onImageChange(e), retrieveFile(e))}
+      />
     </div>
   );
 };
