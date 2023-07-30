@@ -71,12 +71,15 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
           <div class={Style.field}>
             <Lock styleClass={Style.input_icon} />
             <input 
-              type="text" 
+              type="password" 
+              required
               class={Style.input_field}
               autoComplete="off"
-              placeholder="Your awesome password"
+              // placeholder="Your awesome password"
               onChange={(e) => handleFieldChange("password", e)}
             />
+            <span>Your awesome password</span>
+            <div class={Style.toggle}></div>
           </div>
           <div class={Style.btn_container}>
           <button 
