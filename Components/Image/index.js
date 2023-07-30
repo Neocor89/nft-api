@@ -8,6 +8,7 @@ import img6 from "./6.jpg";
 //: ICONS
 import search from "./Search.png";
 import arrow from "./arrow.png";
+import Show from "./Show.png";
 
 //: HEADER LOGO
 import HeaderLogo from "./header-logo1-1.png";
@@ -21,6 +22,7 @@ export default {
   //: ICONS
   search,
   arrow,
+  Show,
   //: HEADER LOGO
   HeaderLogo,
 };
