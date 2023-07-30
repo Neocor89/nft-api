@@ -20,15 +20,15 @@
 
 .content {
   -webkit-background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
 }
 
 .field {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   border-radius: 20px;
   padding: 0.6rem;
   border: none;
@@ -36,6 +36,25 @@
   color: #fff;
   background-color: #212325;
   box-shadow: 2px 5px 10px rgba(5, 5, 5);
+}
+
+.field span {
+  position: absolute;
+  left: 30px;
+  margin-left: 25px;
+  font-size: 13px;
+  color: #757575;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+
+.field input:focus ~ span, .field input:valid ~ span {
+  color: #212325;
+  font-size: 0.50rem;
+  transform: translateX(0px) translateY(-16px);
+  padding: 3px 3px;
+  background-image: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  border-radius: 2px;
 }
 
 .input_icon {
@@ -71,6 +90,16 @@
 /* 
 ! FINISH
 : REUSE FOR ANOTHER COMPONENT */
+
+.toggle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  background: url("../SVG/Show.jsx");
+  width: 30px;
+  height: 30px;
+}
 
 .form .btn_container {
   display: flex;
