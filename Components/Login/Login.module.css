@@ -91,15 +91,6 @@
 ! FINISH
 : REUSE FOR ANOTHER COMPONENT */
 
-.toggle {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
-  background: url("../SVG/Show.jsx");
-  width: 30px;
-  height: 30px;
-}
 
 .form .btn_container {
   display: flex;
