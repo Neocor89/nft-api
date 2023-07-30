@@ -56,8 +56,8 @@ const Header = ({ notification, setNotification }) => {
         className={Style.header_logo}
         src={imagesNFT.HeaderLogo} 
         alt={"header logo"}
-        width={70}
-        height={70} 
+        width={60}
+        height={60} 
       />      
       <div className={Style.menu}>
         {menuList.map((el, i) => (
