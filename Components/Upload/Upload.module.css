@@ -23,3 +23,11 @@
   justify-content: center;
 }
 
+.header svg {
+  height: 100px;
+}
+
+.header p {
+  text-align: center;
+  color: #212325;
+}
