@@ -37,6 +37,7 @@ const Upload = ({ onImageChange, display, retrieveFile }) => {
         type="file" 
         placeholder="Add your awesome image"
         onChange={(e) => (onImageChange(e), retrieveFile(e))}
+        className={Style.file}
       />
     </div>
   );
