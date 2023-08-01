@@ -55,3 +55,8 @@
   cursor: pointer;
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.205);
 }
+
+.footer p {
+  flex: 1;
+  text-align: center;
+}
