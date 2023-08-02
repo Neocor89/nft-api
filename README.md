@@ -105,6 +105,10 @@ Feel free to modify and customize this README file according to your specific ne
 
 ### **PROVISIONAL RENDER**
 
+<blockquote style="border: 1px solid #8DECD9; padding: 1rem 1rem 0; border-radius: 0.75rem; margin-bottom: 1.5rem;">
+<p style="text-align: center;">This project is still in development and will be continuously updated.<P>
+</blockquote>
+
 ---
 
 - ` CARD AND FOOTER OF PROJECT "NFT SHARING"`
