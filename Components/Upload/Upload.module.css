@@ -47,7 +47,7 @@
 }
 
 .footer svg {
-  height: 90%;   /*: BEFORE 130%; */
+  height: 90%;
   fill: #8CEDE9;
   background-color:  rgba(70, 66, 66, 0.103);
   border-radius: 50%;
