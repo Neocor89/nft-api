@@ -26,6 +26,8 @@ const layout = () => {
     <div className="home">
       <p>HEADER</p>
       <Header />
+      <p>UPLOAD</p>
+      <Upload />
       <p>LOGO</p>
       <Logo />
       <Button />
