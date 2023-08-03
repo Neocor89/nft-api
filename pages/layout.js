@@ -18,6 +18,7 @@ import {
   Notification,
   Profile,
   SignUp,
+  Upload,
 } from "../Components";
 
 const layout = () => {
