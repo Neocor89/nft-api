@@ -62,7 +62,8 @@
 
 .footer svg {
   height: 60%;
-  fill: #8CEDE9;
+  fill: #FFF;
+  /* fill: #8CEDE9; */
   background-color: white;
   border-radius: 50%;
   padding: 2px;
