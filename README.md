@@ -106,11 +106,15 @@ Feel free to modify and customize this README file according to your specific ne
 ### **PROVISIONAL RENDER**
 
 <blockquote style="border: 1px solid #8DECD9; padding: 1rem 1rem 0; border-radius: 0.75rem; margin-bottom: 1.5rem;">
-<p style="text-align: center;">This project is still in development and will be continuously updated.<P>
+<p style="text-align: center;">The <span style="font-weight: bold; color: #ac9ef9;">NFT SHARING</span> project is still under development and will be continually updated.<P>
 </blockquote>
 
 ---
 
-- ` CARD AND FOOTER OF PROJECT "NFT SHARING"`
+- `HEADER AND UPLOAD COMPONENTS OF THE PROJECT`
+
+<img src="./public/README-asset/header-upload-component.png" style="max-width: 450px; margin: 10px 0px 20px 0;" alt="Footer of NFT sharing project" />
+
+- ` CARD AND FOOTER OF THE PROJECT`
 
 <img src="./public/README-asset/NFTAPI-render2.png" style="max-width: 450px; margin: 10px 0px 20px 0;" alt="Footer of NFT sharing project" />
