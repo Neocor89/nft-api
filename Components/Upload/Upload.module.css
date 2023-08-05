@@ -34,10 +34,9 @@
 
 /*
   TODO
-+ RESTART HERE FOR ADJUSTING STYLE AND SIZE OF UPLOAD COMPONENT
++ RESTART HERE FOR CONTINUE ADJUSTING STYLE
 
 .footer svg {
-  fill: #FFF;
   background-color: #F9B5BC;
   border-radius: 50%;
   padding: 2px 5px;
@@ -63,7 +62,6 @@
 .footer svg {
   height: 60%;
   fill: #FFF;
-  /* fill: #8CEDE9; */
   background-color: white;
   border-radius: 50%;
   padding: 2px;
