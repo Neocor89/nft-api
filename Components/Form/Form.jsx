@@ -15,36 +15,36 @@ const Form = ({
 
   const categories = ["Robot", "Humans Face", "Animals"];
   return (
-    <div class={Style.container}>
-      <div class={Style.content}>
-        <form class={Style.form}>
-          <p id="heading" class={Style.heading}>
+    <div className={Style.container}>
+      <div className={Style.content}>
+        <form className={Style.form}>
+          <p id="heading" className={Style.heading}>
             Upload Image
           </p>
-          <div class={Style.field}>
+          <div className={Style.field}>
             <FormSVG styleClass={Style.input_icon} />
             <input 
               type="text" 
-              class={Style.input_field} 
+              className={Style.input_field} 
               placeholder="title" 
               autoComplete="off"
               onChange={(e) => handleFormFieldChange("title", e)}
             />
           </div>
-          <div class={Style.field}>
+          <div className={Style.field}>
             <Lock styleClass={Style.input_icon} />
             <textarea 
               type="description" 
-              class={`${Style.textarea} ${Style.input_field} `}
+              className={`${Style.textarea} ${Style.input_field} `}
               placeholder="description"
               onChange={(e) => handleFormFieldChange("description", e)}
               ></textarea>
           </div>
-          <div class={Style.field}>
+          <div className={Style.field}>
             <FormSVG styleClass={Style.input_icon} />
             <input 
               type="email" 
-              class={Style.input_field}
+              className={Style.input_field}
               placeholder="email" 
               onChange={(e) => handleFormFieldChange("email", e)} 
             />
