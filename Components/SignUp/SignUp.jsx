@@ -1,10 +1,12 @@
 import axios from "axios";
 import React, { useState } from "react";
+import Image from "next/image";
 
 //:INTERNAL IMPORTS
 import Style from "./SignUp.module.css";
 import { FormSVG, Lock } from "../SVG";
 import { Notification } from "../index";
+import imagesNFT from "../Image/index";
 
 const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
   const [user, setUser] = useState({
@@ -55,6 +57,8 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
       console.error(error);
     }
   };
+
+  const [showPassword, setShowPassword] = useState(false);
   
   return (
     <>
@@ -93,6 +97,14 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("password", e)}
               />
+              <span>Your awesome password</span>
+            <Image 
+              onClick={() => setShowPassword(!showPassword)}
+              width={25}
+              height={17}
+              style={{marginRight: '20px'}}
+              src={showPassword ? imagesNFT.Hide : imagesNFT.Show}
+            />
             </div>
             <div class={Style.field}>
               <Lock styleClass={Style.input_icon} />
