@@ -85,7 +85,7 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
             <Image 
               onClick={() => setShowPassword(!showPassword)}
               width={25}
-              height={18}
+              height={17}
               style={{marginRight: '20px'}}
               src={showPassword ? imagesNFT.Hide : imagesNFT.Show}
             />
