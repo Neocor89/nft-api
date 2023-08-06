@@ -43,7 +43,7 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
         },
       });
       if (response.data.status == "success") {
-        setNotification("Your AWESOME account his successfully created");
+        setNotification("Your account his successfully created");
         localStorage.setItem("NFTApi Token", response.data.token);
         setSignup(false);
         setNotification("");
