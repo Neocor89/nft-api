@@ -18,11 +18,6 @@
   font-size: 1.2rem;
 }
 
-/*
-  TODO -> RESTART HERE
-+ CHANGING STYLE FOR INPUT PASSWORD 
-*/
-
 .content {
   -webkit-background-clip: text;
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
@@ -42,6 +37,11 @@
   background-color: #212325;
   box-shadow: 2px 5px 10px rgba(5, 5, 5);
 }
+
+/*
+  TODO -> RESTART HERE
++ CHANGING STYLE FOR INPUT PASSWORD 
+*/
 
 .field span {
   position: absolute;
