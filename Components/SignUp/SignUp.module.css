@@ -30,7 +30,7 @@
   justify-content: center;
   gap: 0.5rem;
   border-radius: 20px;
-  padding: 0.6rem;
+  padding: 0.8rem; /* 0.6rem */
   border: none;
   outline: none;
   color: #fff;
