@@ -38,11 +38,6 @@
   box-shadow: 2px 5px 10px rgba(5, 5, 5);
 }
 
-/*
-  TODO -> RESTART HERE
-+ CHANGING STYLE FOR INPUT PASSWORD 
-*/
-
 .field span {
   position: absolute;
   left: 30px;
@@ -52,6 +47,11 @@
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.5s;
 }
+
+/*
+  TODO -> RESTART HERE
++ ADDING STYLE FOR INPUT PASSWORD ACTIVE & FOCUS 
+*/
 
 .input_icon {
   height: 1.3rem;
