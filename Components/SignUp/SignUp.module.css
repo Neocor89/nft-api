@@ -53,6 +53,10 @@
 + ADDING STYLE FOR INPUT PASSWORD ACTIVE & FOCUS 
 */
 
+.field input:focus ~ span, .field input:valid ~ span {
+  color: #212325;
+}
+
 .input_icon {
   height: 1.3rem;
   width: 1.3rem;
