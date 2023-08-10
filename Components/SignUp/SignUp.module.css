@@ -50,7 +50,7 @@
 
 /*
   TODO -> RESTART HERE
-+ ADDING STYLE FOR INPUT PASSWORD ACTIVE & FOCUS 
++ CHECK STYLE RESULT FOR INPUT PASSWORD 
 */
 
 .field input:focus ~ span, .field input:valid ~ span {
