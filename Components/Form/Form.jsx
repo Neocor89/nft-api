@@ -60,18 +60,18 @@ const Form = ({
             ))}
           </div>
 
-          <div class={Style.btn_container}>
+          <div className={Style.btn_container}>
             <button 
-              class={Style.first_button}
+              className={Style.first_button}
               onClick={() => (setFile(null), setDisplay(null))}
             >
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Close&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </button>
-            <button class={Style.second_button}>Sign Up</button>
+            <button className={Style.second_button}>Sign Up</button>
           </div>
           <button 
             onClick={(e) => handleSubmit(e)}
-            class={Style.third_button}
+            className={Style.third_button}
           >
             Create
           </button>
