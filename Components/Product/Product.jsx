@@ -18,7 +18,19 @@ const Product = ({
     saveAs(url, `${image?.title}`);
   };
 
-  return (<div></div>);
+  const [donate, setDonate] = useState(false);
+
+  return (
+    <div className={Style.image_container}>
+      <div className={Style.image_content}>
+        <img 
+          className={Style.image} 
+          src={image?.imageURL} 
+          alt="NFT image"
+        />
+      </div>
+    </div>
+  );
 };
 
 export default Product;
