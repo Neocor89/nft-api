@@ -29,6 +29,21 @@ const Product = ({
           alt="NFT image"
         />
       </div>
+
+      <div className={Style.img_details_container}>
+        <div className={Style.img_details_content}>
+          <h1>{image?.title}</h1>
+          <p>{image?.description}</p>
+
+          <p className={Style.img_details_info}>
+            <span>Category: {image?.category}</span> {""}{" "}
+            <span>Image ID: # {image?.imageId}</span> {""}{" "}
+            <span>
+              CreatedAt: {new Date(image?.createdAt * 1000).toDateString()}
+            </span>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
