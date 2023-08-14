@@ -42,6 +42,11 @@ const Product = ({
               CreatedAt: {new Date(image?.createdAt * 1000).toDateString()}
             </span>
           </p>
+
+          <p className={Style.details_img_info}>
+            <span>Donation:{""} {image?.fundRaised} MATIC</span>{" "}{""}{" "}
+          </p>
+
         </div>
       </div>
     </div>
