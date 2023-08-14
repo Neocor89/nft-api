@@ -30,12 +30,12 @@ const Product = ({
         />
       </div>
 
-      <div className={Style.img_details_container}>
-        <div className={Style.img_details_content}>
+      <div className={Style.details_container}>
+        <div className={Style.details_content}>
           <h1>{image?.title}</h1>
           <p>{image?.description}</p>
 
-          <p className={Style.img_details_info}>
+          <p className={Style.details_img_info}>
             <span>Category: {image?.category}</span> {""}{" "}
             <span>Image ID: # {image?.imageId}</span> {""}{" "}
             <span>
