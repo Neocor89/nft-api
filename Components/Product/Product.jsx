@@ -9,7 +9,15 @@ import client from "../Image/client";
 import { Donate } from "../index";
 
 
-const Product = ({setNotification, setSupport, donateAmount, setLoading, image}) => {
+const Product = ({
+  setNotification, setSupport, 
+  donateAmount, setLoading, image
+}) => {
+  const handleClick = () => {
+    let url = `${image?.imageURL}`;
+    saveAs(url, `${image?.title}`);
+  };
+
   return (<div></div>);
 };
 
