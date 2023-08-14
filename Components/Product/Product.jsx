@@ -9,8 +9,8 @@ import client from "../Image/client";
 import { Donate } from "../index";
 
 
-const Product = () => {
-  return <div>Product</div>;
+const Product = ({setNotification, setSupport, donateAmount, setLoading, image}) => {
+  return (<div></div>);
 };
 
 export default Product;
