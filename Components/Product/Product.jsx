@@ -59,7 +59,8 @@ const Product = ({
               <small 
                 className={Style.creator_notification}
                 onClick={() => (
-                  setNotification("NFT image successfully copied")
+                  setNotification("NFT image successfully copied"),
+                  navigator.clipboard.writeText(image?.creator)
                 )}
               > {/* para_small */}
                 {image?.creator.slice(0,30)}..
