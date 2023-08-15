@@ -35,7 +35,7 @@ const Product = ({
           <h1>{image?.title}</h1>
           <p>{image?.description}</p>
 
-          <p className={Style.details_img_info}>
+          <p className={Style.details_img_info}> {/* info */}
             <span>Category: {image?.category}</span> {""}{" "}
             <span>Image ID: # {image?.imageId}</span> {""}{" "}
             <span>
@@ -43,9 +43,20 @@ const Product = ({
             </span>
           </p>
 
-          <p className={Style.details_img_info}>
+          <p className={Style.details_img_info}> {/* info */}
             <span>Donation:{""} {image?.fundRaised} MATIC</span>{" "}{""}{" "}
           </p>
+
+          <p>Contact Creator: {image?.email}</p>
+            <span className={Style.details_creator}> {/* para */}
+              <Image 
+                className="avatar_img_creator"
+                src={client[`client${1}`]} 
+                width={40}
+                height={40}
+              />
+            </span>
+          
 
         </div>
       </div>
