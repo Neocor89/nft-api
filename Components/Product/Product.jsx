@@ -55,10 +55,18 @@ const Product = ({
                 width={40}
                 height={40}
               />
-            </span>
-          
 
+              <small 
+                className={Style.creator_notification}
+                onClick={() => (
+                  setNotification("NFT image successfully copied")
+                )}
+              > {/* para_small */}
+                {image?.creator.slice(0,30)}..
+              </small>
+            </span>
         </div>
+
       </div>
     </div>
   );
