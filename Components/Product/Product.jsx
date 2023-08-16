@@ -68,6 +68,14 @@ const Product = ({
             </span>
         </div>
 
+        <button
+          onClick={() => (
+            setNotification("NFT Image URL is successfully copied"),
+            navigator.clipboard.writeText(image?.imageURL)
+          )}
+        >
+
+        </button>
       </div>
     </div>
   );
