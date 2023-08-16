@@ -73,6 +73,7 @@ const Product = ({
             setNotification("NFT Image URL is successfully copied"),
             navigator.clipboard.writeText(image?.imageURL)
           )}
+          className={BTNStyle.button}
         >
 
         </button>
