@@ -30,6 +30,7 @@ const Product = ({
         />
       </div>
 
+      {/* INFO IMAGE SECTION */}
       <div className={Style.details_container}>
         <div className={Style.details_content}>
           <h1>{image?.title}</h1>
@@ -80,7 +81,9 @@ const Product = ({
             Copy Image URL{" "}
           </span>
         </button>
-        
+
+        {/* DOWLOAD SECTION */}
+        <span></span>
       </div>
     </div>
   );
