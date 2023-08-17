@@ -100,7 +100,8 @@ const Product = ({
           </span>
         </button>
 
-        
+        {/* DONATE SECTION */}
+        <span className={Style.dowload}></span>
       </div>
     </div>
   );
