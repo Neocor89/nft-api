@@ -76,7 +76,11 @@ const Product = ({
           className={BTNStyle.button}
         >
 
+          <span className={`${BTNStyle.button_content} ${BTNStyle.btn}`}>
+            Copy Image URL{" "}
+          </span>
         </button>
+        
       </div>
     </div>
   );
