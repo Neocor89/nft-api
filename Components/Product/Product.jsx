@@ -83,7 +83,24 @@ const Product = ({
         </button>
 
         {/* DOWLOAD SECTION */}
-        <span></span>
+        <span className={Style.dowload}></span>
+        <button 
+          onClick={() => (
+            navigator.clipboard.writeText(
+              setNotification("Thanks for downloading!")
+            )
+          )}
+          className={BTNStyle.button}
+        >
+          <span
+            onClick={handleClick} 
+            className={`${BTNStyle.button_content} ${BTNStyle.btn}`}
+          >
+            Dowloading Image{" "}
+          </span>
+        </button>
+
+        
       </div>
     </div>
   );
