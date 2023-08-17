@@ -102,6 +102,11 @@ const Product = ({
 
         {/* DONATE SECTION */}
         <span className={Style.section}></span>
+        <button 
+          onClick={() => setDonate(true)}
+          className={BTNStyle.button}
+        >
+        </button>
       </div>
     </div>
   );
