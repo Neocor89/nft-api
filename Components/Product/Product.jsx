@@ -83,7 +83,7 @@ const Product = ({
         </button>
 
         {/* DOWLOAD SECTION */}
-        <span className={Style.dowload}></span>
+        <span className={Style.section}></span>
         <button 
           onClick={() => (
             navigator.clipboard.writeText(
@@ -101,7 +101,7 @@ const Product = ({
         </button>
 
         {/* DONATE SECTION */}
-        <span className={Style.dowload}></span>
+        <span className={Style.section}></span>
       </div>
     </div>
   );
