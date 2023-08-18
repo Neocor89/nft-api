@@ -114,7 +114,18 @@ const Product = ({
         </button>
       </div>
 
-      
+      {donate && (
+        <div className={Style.form}>
+          <div className={Style.form_content}> {/* form_inner */}
+          <Donate 
+            setLoading={setLoading}
+            donateAmount={donateAmount}
+            setDonate={setDonate}
+            setSupport={setSupport}
+          />
+          </div> 
+        </div>
+      )}
     </div>
   );
 };
