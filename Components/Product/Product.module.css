@@ -1,0 +1,14 @@
+.image_container {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 4rem;
+  margin-bottom: 8rem;
+}
+
+.image_content {
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+  border: 5px solid #AE99FF;
+  width: 100%;
+  height: auto;
+}
