@@ -12,3 +12,13 @@
   width: 100%;
   height: auto;
 }
+
+.details_content {
+  background-image: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.details_creator {
+  line-height: 1.5;
+}
