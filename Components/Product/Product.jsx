@@ -106,8 +106,15 @@ const Product = ({
           onClick={() => setDonate(true)}
           className={BTNStyle.button}
         >
+          <span 
+            className={`${BTNStyle.button_content} ${BTNStyle.btn}`}
+          >
+            Donate
+          </span>
         </button>
       </div>
+
+      
     </div>
   );
 };
