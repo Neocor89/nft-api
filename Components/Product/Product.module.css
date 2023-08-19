@@ -5,12 +5,14 @@
   margin-bottom: 8rem;
 }
 
-.image_content {
+.image {
   border-radius: 0.5rem;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
   border: 5px solid #AE99FF;
   width: 100%;
+  max-width: 420px;
   height: auto;
+  object-fit: cover;
 }
 
 .details_content {
