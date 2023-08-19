@@ -24,11 +24,16 @@ const Product = ({
   return (
     <div className={Style.image_container}> 
       <div className={Style.image_content}> 
-        <img 
+        <Image 
+          className={Style.image} 
+          src={images.img4} 
+          alt="NFT image"
+        /> 
+        {/* <img 
           className={Style.image} 
           src={image?.imageURL} 
           alt="NFT image"
-        /> 
+        />  */}
       </div>
 
       {/* INFO IMAGE SECTION */}
