@@ -32,3 +32,20 @@
   gap: 3rem;
   line-height: 1.5;
 }
+
+/*
+ + MEDIA QUERY
+*/
+
+@media screen and (max-width: 50em) {
+  .image_container {
+    grid-template-columns: 1fr;
+    gap: 2;
+  }
+
+  .details_img_info {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
