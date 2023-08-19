@@ -56,28 +56,28 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
 
   return (
     <>
-    <div class={Style.container}>
-      <div class={Style.content}>
-        <form class={Style.form}>
-          <p id="heading" class={Style.heading}>
+    <div className={Style.container}>
+      <div className={Style.content}>
+        <form className={Style.form}>
+          <p id="heading" className={Style.heading}>
             Login
           </p>
-          <div class={Style.field}>
+          <div className={Style.field}>
             <FormSVG styleClass={Style.input_icon} />
             <input 
               type="text" 
-              class={Style.input_field} 
+              className={Style.input_field} 
               placeholder="Your awesome email"
               autoComplete="off"
               onChange={(e) => handleFieldChange("email", e)}
             />
           </div>
-          <div class={Style.field}>
+          <div className={Style.field}>
             <Lock styleClass={Style.input_icon} />
             <input 
                type={showPassword ? 'text' : 'password'} 
               required
-              class={Style.input_field}
+              className={Style.input_field}
               autoComplete="off"
               onChange={(e) => handleFieldChange("password", e)}
             />
@@ -90,22 +90,22 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
               src={showPassword ? imagesNFT.Hide : imagesNFT.Show}
             />
           </div>
-          <div class={Style.btn_container}>
+          <div className={Style.btn_container}>
           <button 
-                class={Style.first_button}
+                className={Style.first_button}
                 onClick={() => setLogin(false)}
               >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Close&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
               <button 
-                class={Style.second_button}
+                className={Style.second_button}
                 onClick={() => (setSignup(true), setLogin(false))}
               >
                 Sign Up
               </button>
           </div>
           <button 
-            class={Style.third_button}
+            className={Style.third_button}
             onClick={(e) => apiLogin(e)}
           >
             Login
