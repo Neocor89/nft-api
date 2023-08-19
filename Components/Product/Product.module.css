@@ -22,3 +22,13 @@
 .details_creator {
   line-height: 1.5;
 }
+
+.creator_notification {
+  padding-left: 1.5em;
+}
+
+.details_img_info {
+  display: flex;
+  gap: 3rem;
+  line-height: 1.5;
+}
