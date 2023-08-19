@@ -21,22 +21,22 @@ const Product = ({
   const [donate, setDonate] = useState(false);
 
   return (
-    <div className={Style.image_container}>
-      <div className={Style.image_content}>
+    <div className={Style.image_container}> 
+      <div className={Style.image_content}> 
         <img 
           className={Style.image} 
           src={image?.imageURL} 
           alt="NFT image"
-        />
+        /> 
       </div>
 
       {/* INFO IMAGE SECTION */}
-      <div className={Style.details_container}>
-        <div className={Style.details_content}>
+      <div className={Style.detail_container}> 
+        <div className={Style.details_content}> 
           <h1>{image?.title}</h1>
           <p>{image?.description}</p>
 
-          <p className={Style.details_img_info}> {/* info */}
+          <p className={Style.details_img_info}> 
             <span>Category: {image?.category}</span> {""}{" "}
             <span>Image ID: # {image?.imageId}</span> {""}{" "}
             <span>
@@ -44,12 +44,12 @@ const Product = ({
             </span>
           </p>
 
-          <p className={Style.details_img_info}> {/* info */}
+          <p className={Style.details_img_info}> 
             <span>Donation:{""} {image?.fundRaised} MATIC</span>{" "}{""}{" "}
           </p>
 
           <p>Contact Creator: {image?.email}</p>
-            <span className={Style.details_creator}> {/* para */}
+            <span className={Style.details_creator}>
               <Image 
                 className="avatar_img_creator"
                 src={client[`client${1}`]} 
@@ -63,7 +63,7 @@ const Product = ({
                   setNotification("Successfully copied"),
                   navigator.clipboard.writeText(image?.creator)
                 )}
-              > {/* para_small */}
+              > 
                 {image?.creator.slice(0,30)}..
               </small>
             </span>
@@ -116,7 +116,7 @@ const Product = ({
 
       {donate && (
         <div className={Style.form}>
-          <div className={Style.form_content}> {/* form_inner */}
+          <div className={Style.form_content}>
           <Donate 
             setLoading={setLoading}
             donateAmount={donateAmount}
