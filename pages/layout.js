@@ -19,6 +19,7 @@ import {
   Profile,
   SignUp,
   Upload,
+  Product,
 } from "../Components";
 
 const layout = () => {
@@ -26,6 +27,8 @@ const layout = () => {
     <div className="home">
       <p>HEADER</p>
       <Header />
+      <p>PRODUCT</p>
+      <Product />
       <p>UPLOAD</p>
       <Upload />
       <p>LOGO</p>
