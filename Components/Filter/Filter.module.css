@@ -53,6 +53,11 @@
   font-size: 0.9rem;
 }
 
+
+/* 
+ + MEDIA QUERY 
+ */
+
 @media screen and (max-width: 50em) {
   .filter {
     grid-template-columns: 2fr 1fr;
