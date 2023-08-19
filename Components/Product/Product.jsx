@@ -7,6 +7,7 @@ import BTNStyle from "../Button/Button.module.css";
 import images from "../Image/index";
 import client from "../Image/client";
 import { Donate } from "../index";
+import Image from "next/image";
 
 
 const Product = ({
