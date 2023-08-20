@@ -67,7 +67,7 @@ const Login = ({ setLogin, setSignup, notification, setNotification }) =>{
             <input 
               type="text" 
               className={Style.input_field} 
-              placeholder="Your awesome email"
+              placeholder="email"
               autoComplete="off"
               onChange={(e) => handleFieldChange("email", e)}
             />
