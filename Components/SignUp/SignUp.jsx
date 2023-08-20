@@ -62,37 +62,37 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
   
   return (
     <>
-      <div class={Style.container}>
-        <div class={Style.content}>
-          <form class={Style.form}>
-            <p id="heading" class={Style.heading}>
+      <div className={Style.container}>
+        <div className={Style.content}>
+          <form className={Style.form}>
+            <p id="heading" className={Style.heading}>
               SignUp
             </p>
-            <div class={Style.field}>
+            <div className={Style.field}>
               <FormSVG styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                class={Style.input_field} 
+                className={Style.input_field} 
                 placeholder="name"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("name", e)}
               />
             </div>
-            <div class={Style.field}>
+            <div className={Style.field}>
             <FormSVG styleclass={Style.input_icon} />
               <input 
                 type="email" 
-                class={Style.input_field} 
+                className={Style.input_field} 
                 placeholder="email"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("email", e)}
               />
             </div>
-            <div class={Style.field}>
+            <div className={Style.field}>
             <Lock styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                class={Style.input_field} 
+                className={Style.input_field} 
                 placeholder="password"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("password", e)}
@@ -106,32 +106,32 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
               src={showPassword ? imagesNFT.Hide : imagesNFT.Show}
             />
             </div>
-            <div class={Style.field}>
+            <div className={Style.field}>
               <Lock styleClass={Style.input_icon} />
               <input 
                 type="text" 
-                class={Style.input_field}
+                className={Style.input_field}
                 placeholder="passwordConfirm"
                 onChange={(e) => handleFormFieldChange("passwordConfirm", e)}
               />
             </div>
 
-            <div class={Style.btn_container}>
+            <div className={Style.btn_container}>
               <button 
-                class={Style.first_button}
+                className={Style.first_button}
                 onClick={() => (setLogin(true), setSignup(false))}
               >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
               <button 
-                class={Style.second_button}
+                className={Style.second_button}
                 onClick={() => setSignup(false)}
               >
                 Close
               </button>
             </div>
               <button 
-                class={Style.third_button}
+                className={Style.third_button}
                 onClick={(e) => createAccount(e)}
               >
                 SignUp
