@@ -79,11 +79,11 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
               />
             </div>
             <div className={Style.field}>
-            <FormSVG styleclass={Style.input_icon} />
+            <FormSVG styleClass={Style.input_icon} />
               <input 
                 type="email" 
                 className={Style.input_field} 
-                placeholder="email"
+                placeholder="Your awesome email"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("email", e)}
               />
@@ -91,9 +91,9 @@ const SignUp = ({ setLogin, setSignup, notification, setNotification }) => {
             <div className={Style.field}>
             <Lock styleClass={Style.input_icon} />
               <input 
-                type="text" 
+                type={showPassword ? 'text' : 'password'} 
+                required
                 className={Style.input_field} 
-                placeholder="password"
                 autoComplete="off"
                 onChange={(e) => handleFormFieldChange("password", e)}
               />
