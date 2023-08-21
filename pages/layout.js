@@ -25,7 +25,6 @@ import {
 const layout = () => {
   return (
     <div className="home">
-      <p>HEADER</p>
       <Header />
       <p>PRODUCT</p>
       <Product />
