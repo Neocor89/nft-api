@@ -73,10 +73,6 @@
 }
 
 
-/* 
-+ START
-: REUSE FOR ANOTHER COMPONENT */
-
 .textarea {
   height: 6rem;
   resize: none;
@@ -87,9 +83,6 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* 
-! FINISH
-: REUSE FOR ANOTHER COMPONENT */
 
 
 .form .btn_container {
