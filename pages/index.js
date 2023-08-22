@@ -18,8 +18,8 @@ import {
 import { useStateContext } from "../Context/NFTs";
 import images from "../Components/Image/client/index";
 
-const index = () => {
+const Home = () => {
   return <div>START BUILD INDEX PAGE</div>;
 };
 
-export default index;
+export default Home;
