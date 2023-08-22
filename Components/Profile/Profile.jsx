@@ -9,8 +9,8 @@ import images from "../Image/client/index";
 const Profile = ({ setOpenProfile, userBalance }) => {
   return (
     <>
-    <div class={Style.container}>
-    <div class={Style.image}>
+    <div className={Style.container}>
+    <div className={Style.image}>
         <Image 
           className="avatar_img"
           style={{borderRadius: "50px"}}
@@ -22,11 +22,11 @@ const Profile = ({ setOpenProfile, userBalance }) => {
       </div>
 
       <span>0xffeakgampjwdi...</span>
-      <p class={Style.info}>
+      <p className={Style.info}>
         {userBalance} HI, and Welcome to the NFTs place... Discover a platform that offers free decentralized storage and the ability to share your NFTs (non-fungible tokens) over IPFS (InterPlanetary File System) between creators. NFT data is stored by NFT. Storage and is accessible over the decentralized IPFS network.  
       </p>
 
-      <div class={Style.share_container}>
+      <div className={Style.share_container}>
         <a href="https://github.com/Neocor89">
           <GitHub />
         </a>
@@ -41,7 +41,7 @@ const Profile = ({ setOpenProfile, userBalance }) => {
         </a>
       </div>
       <button 
-        class={Style.button}
+        className={Style.button}
         onClick={() => setOpenProfile(false)}
       >
         Close
