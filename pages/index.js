@@ -36,6 +36,7 @@ const Home = () => {
 
   const [openProfile, setOpenProfile] = useState(false);
   const [closeForm, setCloseForm] = useState(true);
+  const [file, setFile] = useState(false);
 
   return <div>START BUILD INDEX PAGE</div>;
 };
