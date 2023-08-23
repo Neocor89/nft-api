@@ -34,15 +34,15 @@ const Home = () => {
     getAllNftsAPI,
   } = useStateContext();
 
-  //: MANAGE DATA
+  //: DATA
   const [openProfile, setOpenProfile] = useState(false);
   const [closeForm, setCloseForm] = useState(true);
   const [file, setFile] = useState(null);
-  const [notification, setNotification] = useState("");
-
-  //: MANAGE DISPLAY
-  const [display, setDisplay] = useState(null);
   const [allImages, setAllImages] = useState([]);
+
+  //: DISPLAY
+  const [notification, setNotification] = useState("");
+  const [display, setDisplay] = useState(null);
 
   return <div>START BUILD INDEX PAGE</div>;
 };
