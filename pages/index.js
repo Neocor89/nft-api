@@ -19,6 +19,21 @@ import { useStateContext } from "../Context/NFTs";
 import images from "../Components/Image/client/index";
 
 const Home = () => {
+  //: STATE VARIABLES
+  const {
+    address,
+    disconnect,
+    contract,
+    connect,
+    userBalance,
+    UploadImage,
+    getUploadImages,
+    setLoading,
+    loading,
+    //: API
+    getAllNftsAPI,
+  } = useStateContext();
+
   return <div>START BUILD INDEX PAGE</div>;
 };
 
