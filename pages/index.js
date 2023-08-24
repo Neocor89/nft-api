@@ -52,6 +52,9 @@ const Home = () => {
   const fetchImages = async () => {
     const images = await getUploadImages();
     setAllImages(images);
+
+    //: API NFTS
+    const apiImages = await getAllNftsAPI();
   };
 
   return <div>START BUILD INDEX PAGE</div>;
