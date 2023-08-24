@@ -39,10 +39,12 @@ const Home = () => {
   const [closeForm, setCloseForm] = useState(true);
   const [file, setFile] = useState(null);
   const [allImages, setAllImages] = useState([]);
+  const [imagesCopy, setImagesCopy] = useState([]);
 
   //: DISPLAY
   const [notification, setNotification] = useState("");
   const [display, setDisplay] = useState(null);
+  const [activeSelect, setActiveSelect] = useState("Old Images");
 
   return <div>START BUILD INDEX PAGE</div>;
 };
