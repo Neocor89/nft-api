@@ -46,7 +46,13 @@ const Home = () => {
   const [display, setDisplay] = useState(null);
   const [activeSelect, setActiveSelect] = useState("Old Images");
 
-  //: GET THE DATA
+  //: FETCH DATA
+  const oldImages = [];
+
+  const fetchImages = async () => {
+    const images = await getUploadImages();
+    setAllImages(images);
+  };
 
   return <div>START BUILD INDEX PAGE</div>;
 };
