@@ -34,17 +34,19 @@ const Home = () => {
     getAllNftsAPI,
   } = useStateContext();
 
-  //: DATA
+  //: STATE DATA
   const [openProfile, setOpenProfile] = useState(false);
   const [closeForm, setCloseForm] = useState(true);
   const [file, setFile] = useState(null);
   const [allImages, setAllImages] = useState([]);
   const [imagesCopy, setImagesCopy] = useState([]);
 
-  //: DISPLAY
+  //: STATE DISPLAY
   const [notification, setNotification] = useState("");
   const [display, setDisplay] = useState(null);
   const [activeSelect, setActiveSelect] = useState("Old Images");
+
+  //: GET THE DATA
 
   return <div>START BUILD INDEX PAGE</div>;
 };
