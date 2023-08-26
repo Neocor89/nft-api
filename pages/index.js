@@ -1,3 +1,4 @@
+//: EXTERNAL PACKAGE IMPORTS
 import axios from "axios";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
