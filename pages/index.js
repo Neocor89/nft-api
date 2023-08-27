@@ -68,6 +68,13 @@ const Home = () => {
 
     //: FETCH DATA OF IMAGE
     const [category, setCategory] = useState("");
+    const [imageInfo, setImageInfo] = useState({
+      title: "",
+      description: "",
+      email: "",
+      category: "",
+      image: "",
+    });
   }, []);
 
   return <div>START BUILD INDEX PAGE</div>;
