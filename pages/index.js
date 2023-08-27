@@ -65,6 +65,9 @@ const Home = () => {
     } else {
       allImages.map((img) => oldImages.push(img));
     }
+
+    //: FETCH DATA OF IMAGE
+    const [category, setCategory] = useState("");
   }, []);
 
   return <div>START BUILD INDEX PAGE</div>;
