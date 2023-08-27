@@ -75,6 +75,9 @@ const Home = () => {
       category: "",
       image: "",
     });
+
+    // TODO
+    // + RESTART WITH handleFieldChange() FUNCTION
   }, []);
 
   return <div>START BUILD INDEX PAGE</div>;
