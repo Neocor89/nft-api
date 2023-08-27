@@ -57,6 +57,15 @@ const Home = () => {
     //: API NFTS
     const apiImages = await getAllNftsAPI();
   };
+  useEffect(() => {
+    if (contract) fetchImages();
+
+    if (allImages.length === 0) {
+      console.log("Loading...");
+    } else {
+      allImages.map((img) => oldImages.push(img));
+    }
+  }, []);
 
   return <div>START BUILD INDEX PAGE</div>;
 };
