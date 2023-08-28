@@ -59,27 +59,29 @@ const Home = () => {
   };
   useEffect(() => {
     if (contract) fetchImages();
+  }, [address, contract]);
 
-    if (allImages.length === 0) {
-      console.log("Loading...");
-    } else {
-      allImages.map((img) => oldImages.push(img));
-    }
+  if (allImages.length == 0) {
+    console.log("Loading...");
+  } else {
+    allImages.map((img) => oldImages.push(img));
+  }
 
-    //: FETCH DATA OF IMAGE
-    const [category, setCategory] = useState("");
-    const [imageInfo, setImageInfo] = useState({
-      title: "",
-      description: "",
-      email: "",
-      category: "",
-      image: "",
-    });
+  //: FETCH DATA OF IMAGE
+  const [category, setCategory] = useState("");
+  const [imageInfo, setImageInfo] = useState({
+    title: "",
+    description: "",
+    email: "",
+    category: "",
+    image: "",
+  });
 
-    const handleFormFieldChange = (fieldName, event) => {
-      setImageInfo({ ...imageInfo, [fieldName]: event.target.value });
-    };
-  }, []);
+  const handleFormFieldChange = (fieldName, event) => {
+    setImageInfo({ ...imageInfo, [fieldName]: event.target.value });
+  };
+
+  //: UPLOAD FILE AND DATA
 
   return <div>START BUILD INDEX PAGE</div>;
 };
