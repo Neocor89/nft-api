@@ -76,8 +76,9 @@ const Home = () => {
       image: "",
     });
 
-    // TODO
-    // + RESTART WITH handleFieldChange() FUNCTION
+    const handleFieldChange = (fieldName, event) => {
+      setImageInfo({ ...imageInfo, [fieldName]: event.target.value });
+    };
   }, []);
 
   return <div>START BUILD INDEX PAGE</div>;
