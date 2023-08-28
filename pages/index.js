@@ -82,6 +82,11 @@ const Home = () => {
   };
 
   //: UPLOAD FILE AND DATA
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setCloseForm(false);
+    setLoading(true);
+  };
 
   return <div>START BUILD INDEX PAGE</div>;
 };
