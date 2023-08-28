@@ -81,11 +81,31 @@ const Home = () => {
     setImageInfo({ ...imageInfo, [fieldName]: event.target.value });
   };
 
-  //: UPLOAD FILE AND DATA
+  //: UPLOAD
   const handleSubmit = async (event) => {
     event.preventDefault();
     setCloseForm(false);
     setLoading(true);
+    //: FILE AND FIELD
+    if (file) {
+      try {
+        const formData = new FormData();
+        formData.append("file", file);
+
+        const response = await axios({
+          method: "POST",
+          url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
+          data: formData,
+          headers: {
+            pinata_api_key: "not-key",
+            pinata_secret_api_key: `not-key`,
+            "Content-Type": "multipart/form-data",
+          },
+        });
+      } catch (err) {
+        console.log(err);
+      }
+    }
   };
 
   return <div>START BUILD INDEX PAGE</div>;
