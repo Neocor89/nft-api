@@ -76,7 +76,7 @@ const Home = () => {
       image: "",
     });
 
-    const handleFieldChange = (fieldName, event) => {
+    const handleFormFieldChange = (fieldName, event) => {
       setImageInfo({ ...imageInfo, [fieldName]: event.target.value });
     };
   }, []);
