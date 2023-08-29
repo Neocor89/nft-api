@@ -103,6 +103,11 @@ const Home = () => {
           },
         });
         const image = `https://gateway.pinata.cloud/ipfs/${response.data.IpfsHash}`;
+        await UploadImage({
+          ...imageInfo,
+          image: image,
+          category: category,
+        });
       } catch (err) {
         console.log(err);
       }
