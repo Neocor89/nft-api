@@ -102,8 +102,7 @@ const Home = () => {
             "Content-Type": "multipart/form-data",
           },
         });
-        // TODO
-        // + RESTART HERE
+        const image = `https://gateway.pinata.cloud/ipfs/${response.data.IpfsHash}`;
       } catch (err) {
         console.log(err);
       }
