@@ -108,10 +108,12 @@ const Home = () => {
           image: image,
           category: category,
         });
+        setFile(null);
       } catch (err) {
         console.log(err);
       }
     }
+    setFile(null);
   };
 
   return <div>START BUILD INDEX PAGE</div>;
