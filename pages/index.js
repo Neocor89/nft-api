@@ -115,6 +115,8 @@ const Home = () => {
     }
     setFile(null);
   };
+  // TODO
+  //+ RESTART WITH RETRIEVE FILE FUNCTION
 
   return <div>START BUILD INDEX PAGE</div>;
 };
