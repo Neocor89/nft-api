@@ -126,6 +126,13 @@ const Home = () => {
     e.preventDefault();
   };
 
+  //: RETRIEVE AN IMAGE
+  const onImageChange = (event) => {
+    if (event.target.files && event.target.files[0]) {
+      setDisplay(URL.createObjectURL(event.target.files[0]));
+    }
+  };
+
   return <div>START BUILD INDEX PAGE</div>;
 };
 
