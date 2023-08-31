@@ -123,6 +123,7 @@ const Home = () => {
     reader.onloadend = () => {
       setFile(e.target.files[0]);
     };
+    e.preventDefault();
   };
 
   return <div>START BUILD INDEX PAGE</div>;
