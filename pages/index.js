@@ -133,7 +133,9 @@ const Home = () => {
     }
   };
 
-  return <div className="home"></div>;
+  // TODO
+  //+ RESTART HERE ADDING COMPONENTS
+  return <div className="home">{/* <Header /> */}</div>;
 };
 
 export default Home;
