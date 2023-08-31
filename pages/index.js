@@ -115,8 +115,15 @@ const Home = () => {
     }
     setFile(null);
   };
-  // TODO
-  //+ RESTART WITH RETRIEVE FILE FUNCTION
+  const retrievFile = (e) => {
+    const data = e.target.files[0];
+
+    const reader = new window.FileReader();
+    reader.readAsArrayBuffer(data);
+    reader.onloadend = () => {
+      setFile(e.target.files[0]);
+    };
+  };
 
   return <div>START BUILD INDEX PAGE</div>;
 };
