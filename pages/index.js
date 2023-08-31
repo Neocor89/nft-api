@@ -133,7 +133,7 @@ const Home = () => {
     }
   };
 
-  return <div>START BUILD INDEX PAGE</div>;
+  return <div className="home"></div>;
 };
 
 export default Home;
