@@ -215,6 +215,12 @@ const Home = () => {
       <Footer />
 
       {/* NOTIFICATION COMPONENT */}
+      {notification != "" && (
+        <Notification
+          notification={notification}
+          setNotification={setNotification}
+        />
+      )}
     </div>
   );
 };
