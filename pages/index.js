@@ -135,7 +135,14 @@ const Home = () => {
 
   // TODO
   //+ RESTART HERE ADDING COMPONENTS
-  return <div className="home">{/* <Header /> */}</div>;
+  return (
+    <div className="home">
+      <Header notification={notification} setNotification={setNotification} />
+      <div className="header">
+        <h1>Create 100 NFTs for free</h1>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
