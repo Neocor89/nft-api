@@ -182,6 +182,8 @@ const Home = () => {
       <h1 className="sub_title">All NFTs of the Marketplace</h1>
 
       {/* CARD COMPONENT */}
+
+      {/* RESTART HERE WITH CARD AND CARD IMAGE */}
     </div>
   );
 };
