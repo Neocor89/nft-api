@@ -220,6 +220,10 @@ const Home = () => {
           setNotification={setNotification}
         />
       )}
+
+      {/* PROFILE COMPONENT */}
+
+      {/* RESTART WITH IMPLEMENTING PROFILE COMPONENT */}
     </div>
   );
 };
