@@ -213,6 +213,8 @@ const Home = () => {
 
       {/* FOOTER COMPONENT */}
       <Footer />
+
+      {/* NOTIFICATION COMPONENT */}
     </div>
   );
 };
