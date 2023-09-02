@@ -141,6 +141,7 @@ const Home = () => {
       <div className="header">
         <h1>Create 100 NFTs for free</h1>
       </div>
+
       {/* UPLOAD COMPONENT */}
       <div className="upload">
         <Upload
@@ -178,6 +179,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <h1 className="sub_title">All NFTs of the Marketplace</h1>
+
+      {/* CARD COMPONENT */}
     </div>
   );
 };
