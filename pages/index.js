@@ -197,7 +197,17 @@ const Home = () => {
             activeSelect={activeSelect}
             setActiveSelect={setActiveSelect}
           />
-          <div className="card">{/* {allImages} */}</div>
+          <div className="card">
+            {allImages.map((image, i) => (
+              <Card
+                key={i + 1}
+                index={i}
+                image={image}
+                setNotification={setNotification}
+              />
+            ))}
+            ;
+          </div>
         </>
       )}
     </div>
