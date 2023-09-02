@@ -182,8 +182,23 @@ const Home = () => {
       <h1 className="sub_title">All NFTs of the Marketplace</h1>
 
       {/* CARD COMPONENT */}
-
-      {/* RESTART HERE WITH CARD AND CARD IMAGE */}
+      {allImages.length == 0 ? (
+        <Logo />
+      ) : allImages == undefined ? (
+        <h1 className="no_images">No images available 😯</h1>
+      ) : (
+        <>
+          <Filter
+            setImagesCopy={setImagesCopy}
+            imagesCopy={imagesCopy}
+            setAllImages={setAllImages}
+            allImages={allImages}
+            oldImages={oldImages}
+            activeSelect={activeSelect}
+            setActiveSelect={setActiveSelect}
+          />
+        </>
+      )}
     </div>
   );
 };
