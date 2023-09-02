@@ -210,6 +210,9 @@ const Home = () => {
           </div>
         </>
       )}
+
+      {/* FOOTER COMPONENT */}
+      <Footer />
     </div>
   );
 };
