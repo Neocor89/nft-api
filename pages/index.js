@@ -156,6 +156,7 @@ const Home = () => {
             security, without any restrictions that might limit your creative
             freedom.
           </p>
+          <div className="avatar"></div>
         </div>
       </div>
     </div>
