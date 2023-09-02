@@ -156,7 +156,14 @@ const Home = () => {
             security, without any restrictions that might limit your creative
             freedom.
           </p>
-          <div className="avatar"></div>
+          <div className="avatar">
+            <Button
+              address={address}
+              disconnect={disconnect}
+              connect={connect}
+              file={file}
+            />
+          </div>
         </div>
       </div>
     </div>
