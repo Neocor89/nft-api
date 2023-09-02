@@ -142,7 +142,14 @@ const Home = () => {
         <h1>Create 100 NFTs for free</h1>
       </div>
       {/* UPLOAD COMPONENT */}
-      <div className="upload"></div>
+      <div className="upload">
+        <Upload
+          onImageChange={onImageChange}
+          display={display}
+          address={address}
+          retrieveFile={retrievFile}
+        />
+      </div>
     </div>
   );
 };
