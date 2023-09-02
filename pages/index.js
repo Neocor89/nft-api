@@ -141,6 +141,8 @@ const Home = () => {
       <div className="header">
         <h1>Create 100 NFTs for free</h1>
       </div>
+      {/* UPLOAD COMPONENT */}
+      <div className="upload"></div>
     </div>
   );
 };
