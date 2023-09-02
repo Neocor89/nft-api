@@ -197,6 +197,7 @@ const Home = () => {
             activeSelect={activeSelect}
             setActiveSelect={setActiveSelect}
           />
+          <div className="card">{/* {allImages} */}</div>
         </>
       )}
     </div>
