@@ -163,6 +163,18 @@ const Home = () => {
               connect={connect}
               file={file}
             />
+
+            {address && (
+              <p>
+                <Image
+                  className="avatar_img"
+                  src={images.client10}
+                  width={50}
+                  height={50}
+                  onClick={() => setOpenProfile(true)}
+                />
+              </p>
+            )}
           </div>
         </div>
       </div>
