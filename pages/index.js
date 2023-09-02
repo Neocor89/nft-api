@@ -206,7 +206,6 @@ const Home = () => {
                 setNotification={setNotification}
               />
             ))}
-            ;
           </div>
         </>
       )}
