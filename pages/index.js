@@ -223,7 +223,7 @@ const Home = () => {
 
       {/* PROFILE COMPONENT */}
 
-      {/* RESTART WITH IMPLEMENTING PROFILE COMPONENT */}
+      {openProfile && <div className="profile"></div>}
     </div>
   );
 };
