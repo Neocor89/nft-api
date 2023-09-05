@@ -234,7 +234,11 @@ const Home = () => {
       )}
 
       {/* LOADER COMPONENT */}
-      {loading && <div className="loader"></div>}
+      {loading && (
+        <div className="loader">
+          <Logo />
+        </div>
+      )}
     </div>
   );
 };
