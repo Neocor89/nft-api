@@ -238,6 +238,10 @@ const Home = () => {
           <Logo />
         </div>
       )}
+
+      {/* FORM */}
+
+      {/* RESTART HERE WITH FORM COMPONENT */}
     </div>
   );
 };
