@@ -223,7 +223,15 @@ const Home = () => {
 
       {/* PROFILE COMPONENT */}
 
-      {openProfile && <div className="profile"></div>}
+      {openProfile && (
+        <div className="profile">
+          <Profile
+            setOpenProfile={setOpenProfile}
+            userBalance={userBalance}
+            address={address}
+          />
+        </div>
+      )}
     </div>
   );
 };
