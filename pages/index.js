@@ -222,7 +222,6 @@ const Home = () => {
       )}
 
       {/* PROFILE COMPONENT */}
-
       {openProfile && (
         <div className="profile">
           <Profile
