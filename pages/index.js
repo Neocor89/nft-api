@@ -232,6 +232,9 @@ const Home = () => {
           />
         </div>
       )}
+
+      {/* LOADER COMPONENT */}
+      {loading && <div className="loader"></div>}
     </div>
   );
 };
