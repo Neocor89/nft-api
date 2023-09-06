@@ -240,8 +240,19 @@ const Home = () => {
       )}
 
       {/* FORM */}
-
-      {/* RESTART HERE WITH FORM COMPONENT */}
+      {file && closeForm && (
+        <div className="form">
+          <div className="form_inner">
+            <Form
+              setFile={setFile}
+              setDisplay={setDisplay}
+              handleFormFieldChange={handleFormFieldChange}
+              handleSubmit={handleSubmit}
+              setCategory={setCategory}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
