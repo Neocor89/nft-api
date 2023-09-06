@@ -28,7 +28,7 @@ const Home = () => {
     connect,
     userBalance,
     UploadImage,
-    getUploadImages,
+    getUploadedImages,
     setLoading,
     loading,
     //: API
@@ -51,7 +51,7 @@ const Home = () => {
   const oldImages = [];
 
   const fetchImages = async () => {
-    const images = await getUploadImages();
+    const images = await getUploadedImages();
     setAllImages(images);
 
     //: API NFTS
