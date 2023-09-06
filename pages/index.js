@@ -133,8 +133,6 @@ const Home = () => {
     }
   };
 
-  // TODO
-  //+ RESTART HERE ADDING COMPONENTS
   return (
     <div className="home">
       <Header notification={notification} setNotification={setNotification} />
