@@ -9,4 +9,7 @@ const Delete = (props) => {
   )
 }
 
+// TODO
+//+ RESTART HERE AGJUSTING STYLE OR CHANGE ICON
+
 export default Delete;
