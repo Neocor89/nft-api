@@ -1,35 +1,26 @@
 import React from "react";
 
-const Delete = () => {
+const Delete = (props) => {
   return (
-    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        // stroke-linecap="round"
-        // stroke-linejoin="round"
-      ></g>
-      <g id="SVGRepo_iconCarrier">
-        {" "}
-        <path
-          d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z"
-          stroke="#212325"
-          stroke-width="2"
-        ></path>{" "}
-        <path
-          d="M19.5 5H4.5"
-          stroke="#212325"
-          stroke-width="2"
-          // stroke-linecap="round"
-        ></path>{" "}
-        <path
-          d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z"
-          stroke="#212325"
-          stroke-width="2"
-        ></path>{" "}
-      </g>
-    </svg>
-  );
-};
+    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <path fill="#212325" d="M5 20a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8h2V6h-4V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H3v2h2zM9 4h6v2H9zM8 8h9v12H7V8z"></path>
+    <path fill="#212325" d="M9 10h2v8H9zm4 0h2v8h-2z"></path>
+</svg>
+  )
+}
 
 export default Delete;
+
+
+/*
+const Delete = (props) => {
+  return (
+    <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <path fill="#212325" d="M5 20a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8h2V6h-4V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H3v2h2zM9 4h6v2H9zM8 8h9v12H7V8z"></path>
+    <path fill="#212325" d="M9 10h2v8H9zm4 0h2v8h-2z"></path>
+</svg>
+  )
+}
+
+export default Delete;
+*/
