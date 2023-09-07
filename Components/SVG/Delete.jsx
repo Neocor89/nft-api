@@ -6,8 +6,8 @@ const Delete = () => {
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        // stroke-linecap="round"
+        // stroke-linejoin="round"
       ></g>
       <g id="SVGRepo_iconCarrier">
         {" "}
@@ -20,7 +20,7 @@ const Delete = () => {
           d="M19.5 5H4.5"
           stroke="#212325"
           stroke-width="2"
-          stroke-linecap="round"
+          // stroke-linecap="round"
         ></path>{" "}
         <path
           d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z"
