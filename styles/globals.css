@@ -31,9 +31,13 @@ body {
 .upload-info h1 {
   margin-top: 8rem;
   line-height: 0.5;
+  color: #212325;
 }
 
-.upload-info p {width: 92%;}
+.upload-info p {
+  width: 90%;
+  color: #212325;
+}
 
 .subheading {
   margin-top: 5rem;
@@ -177,6 +181,8 @@ body {
     margin-top: 0rem;
     font-size: 1.3rem;
   }
+
+  .upload-info p {font-size: small;}
 
   .card {
     grid-template-columns: 1fr;
