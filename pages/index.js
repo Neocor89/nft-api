@@ -148,7 +148,7 @@ const Home = () => {
           address={address}
           retrieveFile={retrievFile}
         />
-        <div className="upload_info">
+        <div className="upload-info">
           <h1>Welcome to NFTs IPFS Upload</h1>
           <p>
             This software allows you to distribute any type of media in total
