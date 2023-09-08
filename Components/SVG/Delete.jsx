@@ -7,9 +7,6 @@ const Delete = (props) => {
     <path fill="#212325" d="M9 10h2v8H9zm4 0h2v8h-2z"></path>
 </svg>
   )
-}
-
-// TODO
-//+ RESTART HERE AGJUSTING STYLE OR CHANGE ICON
+};
 
 export default Delete;
