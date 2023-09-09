@@ -30,7 +30,7 @@ body {
 
 .upload-info h1 {
   margin-top: 8rem;
-  line-height: 0.5;
+  /* line-height: 0.5; */
   color: #212325;
 }
 
