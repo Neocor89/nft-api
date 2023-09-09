@@ -111,10 +111,10 @@ Feel free to modify and customize this README file according to your specific ne
 
 ---
 
-- `HEADER AND UPLOAD COMPONENTS OF THE PROJECT`
+- `HEADER & UPLOAD SECTION OF HOME PAGE`
 
-<img src="./public/README-asset/header-upload-component.png" style="max-width: 450px; margin: 10px 0px 20px 0;" alt="Footer of NFT sharing project" />
+<img src="./public/README-asset/nftAPI-home-page.png" style="max-width: 450px; margin: 10px 0px 20px 0;" alt="Footer of NFT sharing project" />
 
-- ` CARD AND FOOTER OF THE PROJECT`
+- `FOOTER & CARD SECTION OF LAYOUT PAGE`
 
 <img src="./public/README-asset/NFTAPI-render2.png" style="max-width: 450px; margin: 10px 0px 20px 0;" alt="Footer of NFT sharing project" />
