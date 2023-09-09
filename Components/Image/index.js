@@ -12,7 +12,7 @@ import Show from "./Show.png";
 import Hide from "./Hide.png";
 
 //: HEADER LOGO
-import HeaderLogo from "./header-logo1-1.png";
+import HeaderLogo from "./header-logo.png";
 export default {
   img1,
   img2,
