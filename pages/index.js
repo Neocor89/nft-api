@@ -166,7 +166,7 @@ const Home = () => {
             {address && (
               <p>
                 <Image
-                  className="avatar_img"
+                  className="avatar_image"
                   src={images.client10}
                   width={50}
                   height={50}
