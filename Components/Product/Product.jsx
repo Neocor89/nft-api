@@ -11,8 +11,11 @@ import Image from "next/image";
 
 
 const Product = ({
-  setNotification, setSupport, 
-  donateAmount, setLoading, image
+  setNotification, 
+  setSupport, 
+  donateAmount, 
+  setLoading, 
+  image
 }) => {
   const handleClick = () => {
     let url = `${image?.imageURL}`;
@@ -24,16 +27,16 @@ const Product = ({
   return (
     <div className={Style.image_container}> 
       <div className={Style.image_content}> 
-        <Image 
+        {/* <Image 
           className={Style.image} 
           src={images.img4} 
           alt="NFT image"
-        /> 
-        {/* <img 
+        />  */}
+        <img 
           className={Style.image} 
           src={image?.imageURL} 
           alt="NFT image"
-        />  */}
+        /> 
       </div>
 
       {/* INFO IMAGE SECTION */}
@@ -51,7 +54,9 @@ const Product = ({
           </p>
 
           <p className={Style.details_img_info}> 
-            <span>Donation:{""} {image?.fundRaised} MATIC</span>{" "}{""}{" "}
+            <span>
+              Donation:{""} {image?.fundRaised} MATIC
+            </span>{" "}{""}{" "}
           </p>
 
           <p>Contact Creator: {image?.email}</p>
