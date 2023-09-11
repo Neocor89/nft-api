@@ -6,7 +6,7 @@ import Style from "./Profile.module.css";
 import { YouTube, Twitter, Instagram, GitHub } from "../SVG";
 import images from "../Image/client/index";
 
-const Profile = ({ setOpenProfile, userBalance }) => {
+const Profile = ({ setOpenProfile, userBalance, address }) => {
   return (
     <>
     <div className={Style.container}>
@@ -21,7 +21,7 @@ const Profile = ({ setOpenProfile, userBalance }) => {
         />
       </div>
 
-      <span>0xffeakgampjwdi...</span>
+      <span>{address.slice(0, 25)}</span>
       <p className={Style.info}>
         {userBalance} HI, and Welcome to the NFTs place... Discover a platform that offers free decentralized storage and the ability to share your NFTs (non-fungible tokens) over IPFS (InterPlanetary File System) between creators. NFT data is stored by NFT. Storage and is accessible over the decentralized IPFS network.  
       </p>
