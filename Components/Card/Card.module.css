@@ -96,24 +96,3 @@
   object-fit: cover;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
 }
-
-/*
-.content .button:hover {
-  background: transparent;
-  color: #ffffff; 
-  border: 1px solid #75EEBB;
-}
-.card:hover .number {
-  color: #ffffff;
- background: linear-gradient(180deg, #AE99FF 0%, rgba(33, 35, 37, 0.50) 100%);
-}
-
-.content:hover {
-  color: #212125;
-}
-
-.card:hover .button {
- background: linear-gradient(180deg, #AE99FF 0%, rgba(33, 35, 37, 0.50) 100%);
-}
-*/
-
