@@ -83,24 +83,3 @@
   background: linear-gradient(180deg, #75EEBB 100%, rgba(33, 35, 37, 0.50) 0%);
   transition: all 0.475s;
 }
-
-
-
-
-/*
-
-.container a {
-  padding: 0.5rem;
-  border-radius: 50%;
-  transition: all 0.3s ease-in;
-  display: grid;
-  color: #fff;
-}
-
-.container a:hover {
-  background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
-  color: #212325;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
- */
