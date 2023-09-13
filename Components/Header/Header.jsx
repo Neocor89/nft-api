@@ -16,7 +16,7 @@ const Header = ({ notification, setNotification }) => {
     },
     {
       name: 'About',
-      link: "#",
+      link: "/about",
     },
     {
       name: 'API',
