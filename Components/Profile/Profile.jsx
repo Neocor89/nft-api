@@ -12,7 +12,7 @@ const Profile = ({ setOpenProfile, userBalance, address }) => {
     <div className={Style.container}>
     <div className={Style.image}>
         <Image 
-          className="avatar_img"
+          className="avatar_image"
           style={{borderRadius: "50px"}}
           src={images.client1}
           width={80}
