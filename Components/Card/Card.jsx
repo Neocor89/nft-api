@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-// INTERNAL STYLE AND COMPONENTS IMPORTS
+//: INTERNAL STYLE AND COMPONENTS IMPORTS
 import Style from "./Card.module.css";
 import images from "../Image/client/index";
 // import imagesNFT from "../Image/index";
