@@ -1,6 +1,6 @@
 import React from "react";
 
-//: INTERNAL IMPORTS CSS
+//: INTERNAL IMPORT
 import Style from "./CheckBox.module.css";
 
 const CheckBox = ({ category, setCategory }) => {
