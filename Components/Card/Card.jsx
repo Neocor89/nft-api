@@ -5,14 +5,13 @@ import Link from "next/link";
 //: INTERNAL STYLE AND COMPONENTS IMPORTS
 import Style from "./Card.module.css";
 import images from "../Image/client/index";
-// import imagesNFT from "../Image/index";
 
 const Card = ({ setNotification, image, index }) => {
   return <div className={Style.card}>
     <div className={Style.content}>
       <a href={`/image/${image.imageID}`}>
         <p>
-          {/* <img  */}
+          
           <Image
             className={Style.image}
             src={image.image} 
