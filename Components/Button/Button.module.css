@@ -12,6 +12,7 @@
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
   margin-top: 1rem;
   margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .button:hover::before {
