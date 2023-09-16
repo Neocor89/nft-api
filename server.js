@@ -7,12 +7,17 @@ const nextServer = next({ dev });
 const handle = nextServer.getRequestHandler();
 
 /*
-TODO > ADDING PINATA API KEY AND DOMAIN NAME AND ENV CONFIG 🚨
-  : NOW
-    dotenv.config({ path: "./config.env" });
-  : BEFORE
-    dotenv.config();
+: NOW
+dotenv.config({ path: "./config.env" });
+: BEFORE
+dotenv.config();
+: AFTER
+mongoose.connect(DB,{
+  useUnifiedTopology: true,
+})
 */
+
+// TODO > ADDING PINATA API KEY AND DOMAIN NAME AND ENV CONFIG 🚨
 
 dotenv.config({ path: "./config.env" });
 const app = require("./app");
