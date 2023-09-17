@@ -138,7 +138,6 @@ body {
   .upload {
     grid-template-columns: 1fr;
     justify-content: center;
-    place-items: center;
     padding-top: 1rem;
   }
 
@@ -173,7 +172,6 @@ body {
   .upload {
     grid-template-columns: 1fr;
     justify-content: center;
-    place-items: center;
     padding-top: 1rem;
   }
 
