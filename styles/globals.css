@@ -129,7 +129,7 @@ body {
 
 /*: MEDIA QUERIES */ 
 
-@media screen and (max-width: 55em) {
+@media screen and (max-width: 50em) {
   .card {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -161,7 +161,7 @@ body {
   }
 }
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 37.5em) {
   .home {
     width: 90%;
   }
