@@ -117,7 +117,7 @@ body {
 
 .nft_body p {
   background: linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
-  --webkit-background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
