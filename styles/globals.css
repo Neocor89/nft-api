@@ -160,6 +160,11 @@ body {
   }
 }
 
+/*
+TODO 
++ RESTART HERE WITH FINISH STYLE FOR HOME PAGE
+*/
+
 @media screen and (max-width: 37.5em) {
   .home {
     width: 90%;
