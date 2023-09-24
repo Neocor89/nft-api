@@ -82,3 +82,9 @@
 .image {
   border-radius: 0.5rem;
 }
+
+/*: MEDIA QUERIES */ 
+
+@media screen and (max-width: 50em) {
+
+}
