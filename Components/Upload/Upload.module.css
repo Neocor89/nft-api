@@ -91,3 +91,10 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 37.5em) {
+
+  .container {
+    /*: Start mobile style :*/
+  }
+}
