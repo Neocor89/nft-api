@@ -74,7 +74,8 @@
 
   .header {
     display: flex;
-    padding: 0.6rem 0;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
   }
 
   .header img {
