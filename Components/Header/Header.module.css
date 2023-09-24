@@ -68,14 +68,14 @@
 
 @media screen and (max-width: 37.5em) {
   .menu {
-    gap: 0.5rem;
+    gap: 1rem;
     display: flex;
   }
 
   .header {
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem 1rem;
+    padding: 0.7rem 1rem;
   }
 
   .header img {
