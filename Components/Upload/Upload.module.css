@@ -10,7 +10,7 @@
   padding: 10px;
   gap: 5px;
   background-image: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
-  margin: auto 0 auto 0.8em;
+  margin: 1.6rem 0 1rem 0.8em;
 }
 
 .header {
@@ -86,22 +86,23 @@
 /*: MEDIA QUERIES */ 
 
 @media screen and (max-width: 50em) {
-
   .container {
-    margin: 0;
+    margin: auto 0 auto 0.9em;
   }
 }
 
 @media screen and (max-width: 37.5em) {
-
   .container {
-    /*: Start mobile style :*/
+    width: 350px;
+    height: 300px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 35em) {
 
   .container {
-    /*: Start mobile style :*/
+    width: 90%;
+    height: 280px;
   }
 }
