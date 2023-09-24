@@ -87,4 +87,7 @@
 
 @media screen and (max-width: 50em) {
 
+  .container {
+    margin: 0;
+  }
 }
