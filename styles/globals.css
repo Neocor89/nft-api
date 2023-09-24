@@ -30,8 +30,7 @@ body {
 }
 
 .upload_info h1 {
-  margin-top: 8rem;
-  /* line-height: 0.5; */
+  /* margin-top: 8rem; */
   color: #212325;
 }
 
@@ -169,7 +168,9 @@ body {
 
 /*
 TODO 
-+ RESTART HERE WITH FINISH STYLE FOR HOME PAGE
++ FINISH STYLE FOR HOME PAGE
++ HEADER 
++ UPLOAD MOBILE & TABLET
 */
 
 @media screen and (max-width: 37.5em) {
