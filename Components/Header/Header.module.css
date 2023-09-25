@@ -55,13 +55,12 @@
 */
 @media screen and (max-width: 50em) {
   .header {
-    display: grid;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2rem;
   }
   
   .menu {
-    gap: 0.5rem;
+    gap: 1.5rem;
   }
 
   .form_inner {
