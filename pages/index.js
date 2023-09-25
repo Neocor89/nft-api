@@ -86,19 +86,19 @@ const Home = () => {
     event.preventDefault();
     setCloseForm(false);
     setLoading(true);
-    //: FILE AND FIELD
+
     if (file) {
       try {
         const formData = new FormData();
         formData.append("file", file);
 
         const response = await axios({
-          method: "POST",
+          method: "post",
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: "not-key",
-            pinata_secret_api_key: `not-key`,
+            pinata_api_key: process.env.PINATA_API_KEY,
+            pinata_secret_api_key: process.env.PINATA_SECRET_API_KEY,
             "Content-Type": "multipart/form-data",
           },
         });
@@ -148,7 +148,7 @@ const Home = () => {
           address={address}
           retrieveFile={retrievFile}
         />
-        <div className="upload-info">
+        <div>
           <h1>Welcome to NFTs IPFS Upload</h1>
           <p>
             This software allows you to distribute any type of media in total
