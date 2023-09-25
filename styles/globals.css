@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+:root {
+  --gradient:linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
+}
+
 body {
   background-color: #1a1a1a;
   color: #fff;
@@ -22,7 +26,7 @@ body {
 .upload {
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
+  background: var(--gradient);
   border-radius: 1rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -116,13 +120,13 @@ body {
 }
 
 .nft_body p {
-  background: linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
+  background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .nft_title {
-  background: linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
+  background: var(--gradient);
   padding: 1rem;
   border-radius: 0.5rem;
 }
