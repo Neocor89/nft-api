@@ -135,7 +135,7 @@ body {
 @media screen and (max-width: 50em) {
 
   .header h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .card {
@@ -182,7 +182,7 @@ TODO
   }
 
   .header h1 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   .upload {
