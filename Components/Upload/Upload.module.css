@@ -97,6 +97,11 @@
     height: 300px;
     margin: 0;
   }
+
+  .footer p {
+    flex: 1;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 35em) {
@@ -104,5 +109,11 @@
   .container {
     width: 90%;
     height: 280px;
+  }
+
+  .footer p {
+    flex: 1;
+    text-align: center;
+    margin-right: 1.3rem;
   }
 }
