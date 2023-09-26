@@ -230,7 +230,7 @@ TODO
     grid-template-columns: 1fr;
     justify-content: center;
     place-items: center;
-    padding-top: 1rem;
+    padding-top: 0.2rem;
   }
 
   .upload_info {
