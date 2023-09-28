@@ -192,8 +192,9 @@ TODO
   }
 
   .upload_info h1 {
-    margin-top: 4rem;
+    margin-top: 1rem;
     color: #212325;
+    font-size: 1.5rem;
   }
 
   .upload_info p {font-size: small;}
@@ -239,7 +240,7 @@ TODO
 
   .upload_info h1 {
     margin-top: 0rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .card {
