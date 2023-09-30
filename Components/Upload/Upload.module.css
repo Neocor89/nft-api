@@ -96,6 +96,9 @@
     width: 90%;
     height: 240px;
     margin: 0;
+    /*
+    + CHECK RESULT */
+    margin-top: auto;
   }
 
   .footer p {
