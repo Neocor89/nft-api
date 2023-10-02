@@ -16,8 +16,8 @@
 }
 
 body {
-  background-color: #1a1a1a;
-  color: #ffffff;
+  background-color: var(--bg);
+  color: var(--text);
   font-family: 'Poppins', sans-serif;
 }
 
