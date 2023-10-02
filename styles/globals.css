@@ -9,13 +9,15 @@
   --primary: #AE99FF;
   --secondary: #F9B5F9;
   --accent: #8CEDE9;
-  --bg: #212325;
+  --text: #ffffff;
+  --bg: #1a1a1a;
+  --bg-accent: #212325;
   --gradient:linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
 }
 
 body {
   background-color: #1a1a1a;
-  color: #fff;
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 
