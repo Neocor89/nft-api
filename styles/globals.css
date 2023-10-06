@@ -259,7 +259,7 @@ TODO
 
   .upload_info h1 {
     margin-top: 0rem;
-    font-size: 1.050rem;
+    font-size: var(--p);
   }
 
   .card {
