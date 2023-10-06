@@ -14,6 +14,7 @@
   --bg-accent: #212325;
   --gradient:linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
   --font-scale: 1.333;
+  --h3: calc( calc( calc( 1rem * 1.333 ) * 1.333 ) * 1.333 );
   --p: 1rem;
 }
 
