@@ -212,7 +212,10 @@ TODO
     /* font-size: 1.5rem; */
   }
 
-  .upload_info p {font-size: small;}
+  .upload_info p {
+    font-size: small;
+    line-height: 1.5rem;
+  }
 
   .card {
     grid-template-columns: 1fr;
@@ -260,7 +263,6 @@ TODO
 
   .upload_info p {
     padding-left: 2%;
-    line-height: 1.5rem;
   }
 
   .card {
