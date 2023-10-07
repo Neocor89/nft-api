@@ -255,6 +255,11 @@ TODO
 
   .upload_info h1 {
     margin-top: 0rem;
+    padding-left: 2%;
+  }
+
+  .upload_info p {
+    padding-left: 2%;
   }
 
   .card {
