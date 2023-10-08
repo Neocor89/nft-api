@@ -45,12 +45,12 @@ body {
 }
 
 .upload_info h1 {
-  color: #212325;
+  color: var(--bg-accent);
 }
 
 .upload_info p {
   width: 90%;
-  color: #212325;
+  color: var(--bg-accent);
 }
 
 .sub_title {
@@ -208,8 +208,7 @@ TODO
 
   .upload_info h1 {
     margin-top: 1rem;
-    color: #212325;
-    /* font-size: 1.5rem; */
+    color: var(--bg-accent);
   }
 
   .upload_info p {
