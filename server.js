@@ -11,10 +11,6 @@ const handle = nextServer.getRequestHandler();
 dotenv.config({ path: "./config.env" });
 : BEFORE
 dotenv.config();
-: AFTER
-mongoose.connect(DB,{
-  useUnifiedTopology: true,
-})
 */
 
 // TODO > ADDING PINATA API KEY AND DOMAIN NAME AND ENV CONFIG 🚨
@@ -32,6 +28,7 @@ mongoose
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
+    useUnifiedTopology: true,
   })
   .then(() => console.log("DB connection successfully!"));
 
