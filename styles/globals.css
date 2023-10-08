@@ -75,7 +75,7 @@ body {
 .avatar_image {
   border-radius: 0.5rem;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
-  border: 1px #AE99FF;
+  border: 1px var(--secondary);
 }
 
 .profile {
