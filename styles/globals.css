@@ -7,7 +7,7 @@
   --text: #ffffff;
   --bg: #1a1a1a;
   --bg-accent: #212325;
-  --gradient:linear-gradient(180deg, #F9B5F9 0%, #AE99FF 46.35%, #8CEDE9 94.27%);
+  --gradient:linear-gradient(180deg, var(--secondary) 0%, var(--primary) 46.35%, var(--accent) 94.27%);
   --font-scale: 1.333;
   /* --h3: calc( calc( calc( 1rem * 1.333 ) * 1.333 ) * 1.333 ); */
   --h3: calc( 1rem * 1.333 );
