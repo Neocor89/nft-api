@@ -184,11 +184,6 @@ body {
   }
 }
 
-/*
-TODO 
-+ HEADER LINKS FOR MOBILE DEVICE
-*/
-
 @media screen and (max-width: 37.5em) {
   .home {
     width: 90%;
@@ -232,6 +227,12 @@ TODO
     grid-template-columns: 1fr;
   }
 }
+
+
+/*
+TODO 
++ ADJUST SPACE BETWEEN HEADER LINKS FOR MOBILE DEVICE
+*/
 
 @media screen and (max-width: 35em) {
   .home {
