@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 37.5em) {
   .menu {
-    gap: 1rem;
+    gap: 0rem;
     display: flex;
   }
 
@@ -89,5 +89,13 @@
   .header img {
     width: 45px;
     height: 45px;
+  }
+
+  .link {
+   font-size: 13px;
+  }
+  
+  .menu > p {
+    font-size: 13px;
   }
 }
