@@ -9,6 +9,7 @@
   --bg-accent: #212325;
   --gradient:linear-gradient(180deg, var(--secondary) 0%, var(--primary) 46.35%, var(--accent) 94.27%);
   --font-scale: 1.333;
+  --h1: max(2.625rem,min(5.56634vw + 1.32039rem,8rem));
   /* --h3: calc( calc( calc( 1rem * 1.333 ) * 1.333 ) * 1.333 ); */
   --h3: calc( 1rem * 1.333 );
   --p: 1rem;
