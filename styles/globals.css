@@ -10,6 +10,7 @@
   --gradient:linear-gradient(180deg, var(--secondary) 0%, var(--primary) 46.35%, var(--accent) 94.27%);
   --font-scale: 1.333;
   --h1: max(1.8rem,min(2.36634vw + 1.32039rem,8rem));
+  --h1-adaptive: max(1rem, min(0.776699vw + 1.31796rem, 2.25rem));
 
   /* ORIGINAL 
   --h1: max(2.625rem,min(5.56634vw + 1.32039rem,8rem)); 
@@ -39,6 +40,10 @@ body {
 .header {
   margin-bottom: 2rem;
   font-size: 1.5rem;
+}
+
+.header h1 {
+  font-size: var(--h1);
 }
 
 /*: UPLOAD :*/
@@ -154,9 +159,9 @@ body {
 
 @media screen and (max-width: 50em) {
 
-  .header h1 {
+  /* .header h1 {
     font-size: 2.3rem;
-  }
+  } */
 
   .card {
     grid-template-columns: 1fr 1fr;
@@ -193,9 +198,9 @@ body {
     width: 90%;
   }
 
-  .header h1 {
+  /* .header h1 {
     font-size: 1.9rem;
-  }
+  } */
 
   .upload {
     grid-template-columns: 1fr;
