@@ -9,11 +9,6 @@
   max-height: 70px;
 }
 
-/*
-  TODO
-+ MODIFY HEADER LINK DISPOSITION FOR MOBILE DEVICE
-*/
-
 .header img {
   object-fit: cover;
 }
