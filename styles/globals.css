@@ -159,9 +159,6 @@ body {
 /*: MEDIA QUERIES */ 
 
 @media screen and (max-width: 50em) {
-  .header h1 {
-    font-size: var(--h1-adaptive);
-  }
   .card {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -181,10 +178,6 @@ body {
     margin-top: 1.5rem;
     font-size: var(--h1-adaptive);
   }
-
-  /* .sub_title {
-    font-size: var(--h1-adaptive);
-  } */
 
   .form_inner {
     width: 100%;
@@ -243,6 +236,10 @@ TODO
   .home {
     width: 95%;
     margin: 0 auto;
+  }
+
+  .header h1 {
+    font-size: var(--h1-adaptive);
   }
 
   .upload {
