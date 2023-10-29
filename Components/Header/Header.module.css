@@ -9,10 +9,6 @@
   max-height: 70px;
 }
 
-.header img {
-  object-fit: cover;
-}
-
 .header_logo {
   object-fit: cover;
 }
