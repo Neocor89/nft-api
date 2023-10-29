@@ -6,7 +6,6 @@ import Image from "next/image";
 import Style from "./Header.module.css";
 import { Login, SignUp } from "../index";
 import imagesNFT from "../Image/index";
-// import { CgProfile } from "react-icons/fa"
 
 
 const Header = ({ notification, setNotification }) => {
