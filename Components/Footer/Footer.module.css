@@ -10,17 +10,19 @@
   margin-top: 4rem;
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .footer_social_icon {
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .footer_container {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: grid;
   grid-template-columns: 1.3fr 1fr 2fr;
   align-items: flex-start;
@@ -60,6 +62,7 @@
 .subscribe h3 {
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -100,6 +103,7 @@
   padding: 1rem 0.5rem;
   background: linear-gradient(180deg, #AE99FF 0%, #8CEDE9 46.60%, #F9B5BC 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 0.9rem;
 }
@@ -131,7 +135,7 @@
 
 @media screen and (max-width: 35em) {
   .footer_container {
-    width: 90%;
+    width: 95%;
     grid-template-columns: 1fr;
   }
 
