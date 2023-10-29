@@ -99,3 +99,19 @@
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 35em) {
+  .header {
+    gap: 1rem;
+  }
+
+  .menu {
+    gap: 0.55rem;
+  }
+
+  .header img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+}
