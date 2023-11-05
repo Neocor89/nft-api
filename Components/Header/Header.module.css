@@ -81,13 +81,18 @@
     height: 45px;
   }
 
-  .link {
+  .link > p, .menu > p {
    font-size: 13px;
   }
-  
-  .menu > p {
-    font-size: 13px;
+
+  .link > p:hover, .menu > p:hover {
+   text-decoration: underline;
+   /* transition:  1s ease-in-out; */
   }
+  
+  /* .menu > p {
+    font-size: 13px;
+  } */
 }
 
 @media screen and (max-width: 35em) {
