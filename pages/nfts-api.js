@@ -12,7 +12,7 @@ const nftsapi = () => {
     <div>
       <Link href="/">Home</Link>
 
-      <div>
+      <div className="container">
         {images.map((allImages, index) => (
           <Image
             key={index}
