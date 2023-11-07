@@ -10,7 +10,9 @@ const nftsapi = () => {
 
   return (
     <div>
-      <Link href="/">Home</Link>
+      <Link href="/" className="home_link">
+        Home
+      </Link>
 
       <div className="container">
         {images.map((allImages, index) => (
