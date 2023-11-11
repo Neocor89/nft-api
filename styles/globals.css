@@ -157,6 +157,52 @@ body {
   border-radius: 0.5rem;
 }
 
+/*: NFT-API PAGE */
+.nfts-api_container {
+  padding-block: 2rem;
+  /*Ajouter au container permet de décaler le haut de la page*/
+  width: min(95%, 80rem);
+  margin-inline: auto;
+  /*Ajouter au container permet de centrer la totalité de la page*/
+  
+}
+
+.image_container {
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-gap: 15px;
+  row-gap: 15px;
+  /* padding: 20px; */
+  /* width: 100%; */
+  /* grid-template-columns: repeat(auto-fill, minmax(20vw, 3fr)); */
+  /* row-gap: 20px; */
+  background: #db3939;
+}
+
+.nfts_image {
+  width: auto;
+  display: block;
+  padding: 20px;
+  background: #ffffff;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.nfts_image > * {
+  border-radius: 20px;
+}
+
+/*
+
+
+*/
+/* 
+.home_link {
+
+} */
+
 /*: MEDIA QUERIES */ 
 
 @media screen and (max-width: 50em) {
