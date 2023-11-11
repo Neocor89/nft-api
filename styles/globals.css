@@ -167,6 +167,11 @@ body {
   
 }
 
+.about_nfts-container {
+  margin-inline: auto;
+  
+}
+
 .image_container {
   width: auto;
   display: grid;
