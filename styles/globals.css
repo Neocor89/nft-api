@@ -176,6 +176,9 @@ body {
   width: min(82%, 80rem);
 }
 
+.about_nfts-content {
+  background: #d45757;
+}
 
 .creator_content {
   display: flex;
