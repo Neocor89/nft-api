@@ -18,25 +18,24 @@ const nftsapi = () => {
         </Link>
 
         <div className="about_nfts-container">
+          <Image
+            src={AboutInfo}
+            alt={`About NFTS creator`}
+            className="about_nfts-image"
+          />
           <section className="about_nfts-content">
-            <div className="about_info">
-              <h1 className="about_title">
-                LOREM IPSUM DATA CORUM MEGALIUM MECTA
-              </h1>
+            <h1 className="about_title">
+              LOREM IPSUM DATA CORUM MEGALIUM MECTA
+            </h1>
+            <div className="creator_content">
               <Image
-                src={AboutInfo}
+                src={AboutCreator}
                 alt={`About NFTS creator`}
-                className="about_nfts-image"
+                className="about_creator-nfts"
+                width={60}
+                height={60}
               />
-              <div className="creator_content">
-                <Image
-                  src={AboutCreator}
-                  alt={`About NFTS creator`}
-                  className="about_creator-nfts"
-                  width={60}
-                  height={60}
-                />
-              </div>
+              <p className="creator">Ben webdeveloper</p>
             </div>
           </section>
         </div>
