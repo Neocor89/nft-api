@@ -170,10 +170,12 @@ body {
 .about_nfts-container {
   margin-inline: auto;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   flex-direction: row-reverse;
-  
+  background: #e38383;
+  width: min(82%, 80rem);
 }
+
 
 .creator_content {
   display: flex;
@@ -183,6 +185,12 @@ body {
   width: 280px;
   height: 280px;
   border-radius: 0.5rem;
+}
+
+.creator_logo-nfts {
+  border-radius: 2rem;
+  border: 3px solid #fff;
+  object-fit: cover;
 }
 
 .image_container {
