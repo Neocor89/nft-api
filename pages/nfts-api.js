@@ -31,9 +31,9 @@ const nftsapi = () => {
               <Image
                 src={AboutCreator}
                 alt={`About NFTS creator`}
-                className="about_creator-nfts"
-                width={60}
-                height={60}
+                className="creator_logo-nfts"
+                width={45}
+                height={45}
               />
               <p className="creator">Ben webdeveloper</p>
             </div>
