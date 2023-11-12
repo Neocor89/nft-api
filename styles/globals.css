@@ -169,7 +169,20 @@ body {
 
 .about_nfts-container {
   margin-inline: auto;
+  display: flex;
+  justify-content: left;
+  flex-direction: row-reverse;
   
+}
+
+.creator_content {
+  display: flex;
+}
+
+.about_nfts-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 0.5rem;
 }
 
 .image_container {
