@@ -25,7 +25,8 @@ const nftsapi = () => {
           />
           <section className="about_nfts-content">
             <h1 className="about_title">
-              LOREM IPSUM DATA CORUM MEGALIUM MECTA
+              Welcome to the NFT market, where you can discover the latest
+              creations and NFTs designers.
             </h1>
             <div className="creator_content">
               <Image
