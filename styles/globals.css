@@ -175,6 +175,8 @@ body {
   flex-direction: row-reverse;
   background: #e38383;
   width: min(82%, 80rem);
+  margin-top: 40px;
+  border-radius: 0.6rem;
 }
 
 .about_nfts-content {
@@ -188,10 +190,6 @@ body {
 }
 
 
-/*
-TODO 
-: RESTART HERE IN CREATOR CONTENT
-*/
 .creator_content {
   display: flex;
 }
@@ -220,6 +218,7 @@ TODO
   /* grid-template-columns: repeat(auto-fill, minmax(20vw, 3fr)); */
   /* row-gap: 20px; */
   background: #db3939;
+  margin-top: 50px;
 }
 
 .nfts_image {
