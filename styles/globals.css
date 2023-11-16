@@ -150,6 +150,10 @@ body {
   border-radius: 0.5rem;
 }
 
+
+
+
+
 /*: NFT-API PAGE */
 .nfts-api_container {
   padding-block: 2rem;
@@ -168,12 +172,12 @@ body {
   background: #e38383;
   width: min(82%, 80rem);
   margin-top: 40px;
-  border-radius: 2.6rem;
+  border-radius: 0.5rem;
 }
 
-.about_nfts-content {
+/* .about_nfts-content {
   background: #d45757;
-}
+} */
 
 .about_nfts-content h1 {
   display: block;
@@ -189,6 +193,7 @@ body {
 .about_nfts-image {
   width: 280px;
   height: 280px;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .creator_logo-nfts {
