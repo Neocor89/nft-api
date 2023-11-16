@@ -175,9 +175,6 @@ body {
   border-radius: 0.5rem;
 }
 
-/* .about_nfts-content {
-  background: #d45757;
-} */
 
 .about_nfts-content h1 {
   display: block;
@@ -209,10 +206,6 @@ body {
   justify-content: center;
   grid-gap: 15px;
   row-gap: 15px;
-  /* padding: 20px; */
-  /* width: 100%; */
-  /* grid-template-columns: repeat(auto-fill, minmax(20vw, 3fr)); */
-  /* row-gap: 20px; */
   background: #db3939;
   margin-top: 50px;
 }
@@ -230,14 +223,9 @@ body {
   border-radius: 20px;
 }
 
-/*
 
 
-*/
-/* 
-.home_link {
 
-} */
 
 /*: MEDIA QUERIES */ 
 
