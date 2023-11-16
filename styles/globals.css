@@ -363,3 +363,13 @@ TODO
     grid-template-columns: 1fr;
   }
 }
+
+
+
+/*: SPECIFIC MEDIA QUERIES FOR NFT-API PAGE */
+
+@media only screen and (max-width: 1024px) {
+  :root {
+    --width-shape: calc(100vw - 64px);
+}
+}
