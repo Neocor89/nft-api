@@ -13,14 +13,6 @@
   --h1: max(1.8rem,min(2.36634vw + 1.32039rem,8rem));
   --h1-adaptive: max(1rem, min(0.776699vw + 1.31796rem, 2.25rem));
   --h2-adaptive: max(1rem, min(0.576699vw + 1.11796rem, 1.55rem));
-
-  /* ORIGINAL 
-  --h1: max(2.625rem,min(5.56634vw + 1.32039rem,8rem)); 
-  */
-  /* 
-  --h3: calc( calc( calc( 1rem * 1.333 ) * 1.333 ) * 1.333 ); 
-  --small-heading: max(1rem, min(0.776699vw + 1.31796rem, 2.25rem));
-  */
   --h3: calc( 1rem * 1.333 );
   --p: 1rem;
 }
@@ -176,7 +168,7 @@ body {
   background: #e38383;
   width: min(82%, 80rem);
   margin-top: 40px;
-  border-radius: 0.6rem;
+  border-radius: 2.6rem;
 }
 
 .about_nfts-content {
@@ -197,7 +189,6 @@ body {
 .about_nfts-image {
   width: 280px;
   height: 280px;
-  border-radius: 0.5rem;
 }
 
 .creator_logo-nfts {
