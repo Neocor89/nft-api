@@ -131,18 +131,7 @@ body {
 }
 
 /*: NFT PAGE CONTENT */
-.nft_body {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
-}
 
-.nft_body p {
-  background: var(--gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .nft_title {
   background: var(--gradient);
@@ -161,7 +150,6 @@ body {
   width: min(95%, 80rem);
   margin-inline: auto;
   /*Ajouter au container permet de centrer la totalité de la page*/
-  
 }
 
 .about_nfts-container {
@@ -254,10 +242,6 @@ body {
     width: 100%;
     padding: 0;
   }
-
-  .nft_body {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media screen and (max-width: 37.5em) {
@@ -291,16 +275,11 @@ body {
     width: 100%;
     padding: 0;
   }
-
-  .nft_body {
-    grid-template-columns: 1fr;
-  }
 }
 
 
 /*
 TODO 
-+ ADJUST SPACE BETWEEN HEADER LINKS FOR MOBILE DEVICE
 */
 
 @media screen and (max-width: 35em) {
@@ -345,10 +324,6 @@ TODO
   .form_inner {
     width: 100%;
     padding: 0;
-  }
-
-  .nft_body {
-    grid-template-columns: 1fr;
   }
 }
 
