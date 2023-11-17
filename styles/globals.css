@@ -164,15 +164,17 @@ body {
 }
 
 
-.about_nfts-content h1 {
+.about_title {
   display: block;
   font-size: var(--h2-adaptive);
   font-weight: 400;
+  margin-left: 3%;
 }
 
 
 .creator_content {
   display: flex;
+  margin-left: 3%;
 }
 
 .about_nfts-image {
@@ -185,6 +187,7 @@ body {
   border-radius: 2rem;
   border: 3px solid #fff;
   object-fit: cover;
+  margin-right: 15px;
 }
 
 .image_container {
