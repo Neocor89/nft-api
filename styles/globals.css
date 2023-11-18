@@ -181,7 +181,8 @@ body {
 .about_nfts-image {
   width: 240px;
   height: 240px;
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 1.2rem 1.2rem 0;
+  padding: 10px;
 }
 
 .creator_logo-nfts {
