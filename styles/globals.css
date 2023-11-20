@@ -147,7 +147,8 @@ body {
 .nfts-api_container {
   padding-block: 2rem;
   /*Ajouter au container permet de décaler le haut de la page*/
-  width: min(95%, 80rem);
+  /* width: min(95%, 95vw); */
+  width: min(80%, 80vw);
   margin-inline: auto;
   /*Ajouter au container permet de centrer la totalité de la page*/
 }
@@ -157,9 +158,9 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  width: 100%;
   /* background: #e38383; */
   background: var(--gradient);
-  width: min(82%, 80rem);
   margin-top: 40px;
   border-radius: 0.5rem;
 }
@@ -193,10 +194,10 @@ body {
 }
 
 .image_container {
-  width: auto;
   display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: space-between;
   grid-gap: 15px;
   row-gap: 15px;
   /* background: #db3939; */
@@ -204,13 +205,13 @@ body {
 }
 
 .nfts_image {
-  width: auto;
+  width: 100%;
   display: block;
-  padding: 20px;
+  padding: 0;
   /* background: #ffffff; */
   background: var(--gradient);
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .nfts_image > * {
@@ -340,5 +341,24 @@ TODO
 @media only screen and (max-width: 1024px) {
   :root {
     --width-shape: calc(100vw - 64px);
-}
+  }
+
+  .nfts-api_container {
+    width: var(--width-shape);
+  }
+  
+  .about_nfts-container {
+    width: var(--width-shape);
+  }
+
+  .image_container  {
+    max-width: var(--width-shape);
+    padding: 0;
+  }
+
+  .nfts_image {
+    max-width: 100%;
+    padding: 3px;
+  }
+  
 }
