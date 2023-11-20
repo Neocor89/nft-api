@@ -43,14 +43,16 @@ const nftsapi = () => {
 
         <div className="image_container">
           {images.map((allImages, index) => (
-            <Image
-              key={index}
-              src={allImages}
-              alt={`Description de l'image`}
-              width={300}
-              height={300}
-              className="nfts_image"
-            />
+            <div className="nfts_box-image">
+              <Image
+                key={index}
+                src={allImages}
+                alt={`Description de l'image`}
+                width={320}
+                height={320}
+                className="nfts_image"
+              />
+            </div>
           ))}
         </div>
       </div>
