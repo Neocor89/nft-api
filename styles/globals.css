@@ -171,6 +171,7 @@ body {
   font-size: var(--h2-adaptive);
   font-weight: 400;
   margin-left: 3%;
+  color: var(--bg-accent);
 }
 
 
@@ -191,6 +192,11 @@ body {
   border: 3px solid #fff;
   object-fit: cover;
   margin-right: 15px;
+}
+
+.creator {
+  color: var(--bg-accent);
+  font-weight: 500;
 }
 
 .image_container {
