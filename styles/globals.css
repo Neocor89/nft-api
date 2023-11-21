@@ -214,8 +214,6 @@ body {
   width: 100%;
   display: block;
   padding: 0;
-  /* background: #ffffff; */
-  background: var(--gradient);
   object-fit: cover;
   border-radius: 15px;
 }
