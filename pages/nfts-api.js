@@ -21,7 +21,8 @@ const nftsapi = () => {
         </Link>
 
         {/* TODO : 
-        Modify the component for displaying all information of Creators logo creators */}
+        Modify the component for displaying all information of Creators and logo creators
+        Grab the saving content for creators presentations and complete the modification process */}
         <AboutCreator
           image={AboutInfo}
           about="Welcome to the NFT market, where you can discover the latest
