@@ -4,14 +4,12 @@ import React from "react";
 //: INTERNAL IMPORTS
 import Images from "../Components/Image/index";
 import Image from "next/image";
-import AboutInfo from "/Components/Image/22.jpg";
-import Creator from "/Components/Image/23.jpg";
 
 //: COMPONENTS IMPORTS
 import AboutCreator from "../Components/AboutCreator/AboutCreator";
 
 const nftsapi = () => {
-  const images = Object.values(Images).slice(0, 9);
+  const images = Object.values(Images).slice(0, 11);
 
   return (
     <>
@@ -24,10 +22,10 @@ const nftsapi = () => {
         Modify the component for displaying all information of Creators and logo creators
         Grab the saving content for creators presentations and complete the modification process */}
         <AboutCreator
-          image={AboutInfo}
+          image={Images.img22}
           about="Welcome to the NFT market, where you can discover the latest
           creations and NFTs designers."
-          logo={Creator}
+          logo={Images.img23}
           name="Ben webdeveloper"
         />
 
@@ -44,6 +42,14 @@ const nftsapi = () => {
             </div>
           ))}
         </div>
+
+        <AboutCreator
+          image={Images.img25}
+          about="Welcome to the NFT market, where you can discover the latest
+          creations and NFTs designers."
+          logo={Images.img16}
+          name="Ben webdeveloper"
+        />
       </div>
     </>
   );
