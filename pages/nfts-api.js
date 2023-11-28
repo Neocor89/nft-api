@@ -40,7 +40,8 @@ const nftsapi = () => {
             </div>
           ))}
         </div>
-
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <AboutCreator
           image={Images.img25}
           about="I'm a passionate NFT creator who seeks to explore the boundaries of digital art. Discover my unique creations and be inspired!"
