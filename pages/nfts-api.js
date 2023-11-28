@@ -17,7 +17,6 @@ const nftsapi = () => {
         <Link href="/" className="home_link">
           Home
         </Link>
-
         {/* TODO : 
         Modify the component for displaying all information of Creators and logo creators
         Grab the saving content for creators presentations and complete the modification process */}
@@ -28,7 +27,6 @@ const nftsapi = () => {
           logo={Images.img23}
           name="Ben webdeveloper"
         />
-
         <div className="image_container">
           {images.map((allImages, index) => (
             <div className="nfts_box-image" key={index}>
@@ -45,8 +43,7 @@ const nftsapi = () => {
 
         <AboutCreator
           image={Images.img25}
-          about="Welcome to the NFT market, where you can discover the latest
-          creations and NFTs designers."
+          about="I'm a passionate NFT creator who seeks to explore the boundaries of digital art. Discover my unique creations and be inspired!"
           logo={Images.img16}
           name="Ben webdeveloper"
         />
