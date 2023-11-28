@@ -26,6 +26,4 @@ export default function AboutCreator({image, about, name, logo}) {
           </section>
         </div>
     );
-                {/* creations and NFTs designers. */}
-                {/* Welcome to the NFT market, where you can discover the latest */}
 };
