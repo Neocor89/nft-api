@@ -10,6 +10,7 @@ import AboutCreator from "../Components/AboutCreator/AboutCreator";
 
 const nftsapi = () => {
   const images = Object.values(Images).slice(0, 11);
+  const imagesTwo = Object.values(Images).slice(11, 15);
 
   return (
     <>
@@ -48,6 +49,19 @@ const nftsapi = () => {
           logo={Images.img16}
           name="Ben webdeveloper"
         />
+        <div className="image_container">
+          {imagesTwo.map((allImages, index) => (
+            <div className="nfts_box-image" key={index}>
+              <Image
+                src={allImages}
+                alt={`Description de l'image`}
+                width={320}
+                height={320}
+                className="nfts_image"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
