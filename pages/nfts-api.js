@@ -4,7 +4,7 @@ import Image from "next/image";
 
 //: COMPONENTS IMPORTS
 import AboutCreator from "../Components/AboutCreator/AboutCreator";
-import { Header } from "../Components";
+import { Footer, Header } from "../Components";
 
 const nftsapi = () => {
   const images = Object.values(Images).slice(0, 11);
@@ -58,6 +58,7 @@ const nftsapi = () => {
             </div>
           ))}
         </div>
+        <Footer />
       </div>
     </>
   );
