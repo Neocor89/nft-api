@@ -145,7 +145,7 @@ body {
 
 /*: NFT-API PAGE */
 .nfts-api_container {
-  padding-block: 2rem;
+  padding-block: 2.5rem;
   /*Ajouter au container permet de décaler le haut de la page*/
   /* width: min(95%, 95vw); */
   width: min(80%, 80vw);
