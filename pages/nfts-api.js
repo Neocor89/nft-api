@@ -1,6 +1,3 @@
-import Link from "next/link";
-import React from "react";
-
 //: INTERNAL IMPORTS
 import Images from "../Components/Image/index";
 import Image from "next/image";
@@ -17,9 +14,6 @@ const nftsapi = () => {
     <>
       <div className="nfts-api_container">
         <Header />
-        <Link href="/" className="home_link">
-          Home
-        </Link>
         {/* TODO : 
         Modify the component for displaying all information of Creators and logo creators
         Grab the saving content for creators presentations and complete the modification process */}
